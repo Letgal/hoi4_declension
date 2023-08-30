@@ -1,0 +1,2162 @@
+defined_text = {
+name = GetNameIns
+### FORMABLE NATIONS ###
+text = { trigger = { gvt_F = yes has_cosmetic_tag = EUR_UNIFIED } localization_key = EUR_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = EUR_UNIFIED } localization_key = EUR_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = EUR_UNIFIED } localization_key = EUR_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = EUR_UNIFIED } localization_key = EUR_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = SCA_UNIFIED } localization_key = SCA_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = SCA_UNIFIED } localization_key = SCA_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SCA_UNIFIED } localization_key = SCA_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SCA_UNIFIED } localization_key = SCA_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = NDC_UNIFIED } localization_key = NDC_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = NDC_UNIFIED } localization_key = NDC_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = NDC_UNIFIED } localization_key = NDC_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = NDC_UNIFIED } localization_key = NDC_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = HRE_UNIFIED } localization_key = HRE_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = HRE_UNIFIED } localization_key = HRE_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = HRE_UNIFIED } localization_key = HRE_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = HRE_UNIFIED } localization_key = HRE_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = PLC_UNIFIED } localization_key = PLC_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = PLC_UNIFIED } localization_key = PLC_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = PLC_UNIFIED } localization_key = PLC_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = PLC_UNIFIED } localization_key = PLC_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = PLC_UNIFIED_RUS } localization_key = PLC_RUS_ins_F }
+text = { trigger = { has_cosmetic_tag = PLC_UNIFIED_RUS } localization_key = PLC_RUS_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = BAL_UNIFIED } localization_key = BAL_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = BAL_UNIFIED } localization_key = BAL_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = BAL_UNIFIED } localization_key = BAL_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = BAL_UNIFIED } localization_key = BAL_ins_C }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = OSTLAND } localization_key = OSTLAND_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = OSTLAND } localization_key = OSTLAND_ins_C }
+text = { trigger = { has_cosmetic_tag = OSTLAND } localization_key = OSTLAND_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = LIVONIA } localization_key = LIV_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = LIVONIA } localization_key = LIV_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = LIVONIA } localization_key = LIV_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = LIVONIA } localization_key = LIV_ins_C }
+text = { trigger = { has_cosmetic_tag = LIVONIA } localization_key = LIV_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = UNL_UNIFIED } localization_key = UNL_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = UNL_UNIFIED } localization_key = UNL_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = UNL_UNIFIED } localization_key = UNL_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = UNL_UNIFIED } localization_key = UNL_ins_C }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = HOL_benelux_unified } localization_key = HOL_benelux_ins_D }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = SPQR_UNIFIED } localization_key = SPQR_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = SPQR_UNIFIED } localization_key = SPQR_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPQR_UNIFIED } localization_key = SPQR_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SPQR_UNIFIED } localization_key = SPQR_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = BYZ_UNIFIED } localization_key = BYZ_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = BYZ_UNIFIED } localization_key = BYZ_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = BYZ_UNIFIED } localization_key = BYZ_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = BYZ_UNIFIED } localization_key = BYZ_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = OTT_UNIFIED } localization_key = OTT_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = OTT_UNIFIED } localization_key = OTT_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = OTT_UNIFIED } localization_key = OTT_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = OTT_UNIFIED } localization_key = OTT_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = OTT_SULTANATE } localization_key = OTT_sultanate_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = OTT_SULTANATE } localization_key = OTT_sultanate_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = OTT_SULTANATE } localization_key = OTT_sultanate_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = OTT_SULTANATE } localization_key = OTT_sultanate_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = PER_UNIFIED } localization_key = PERS_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = PER_UNIFIED } localization_key = PERS_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = PER_UNIFIED } localization_key = PERS_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = PER_UNIFIED } localization_key = PERS_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = ARA_UNIFIED } localization_key = ARA_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = ARA_UNIFIED } localization_key = ARA_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = ARA_UNIFIED } localization_key = ARA_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = ARA_UNIFIED } localization_key = ARA_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = RAT_UNIFIED } localization_key = RAT_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = RAT_UNIFIED } localization_key = RAT_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = RAT_UNIFIED } localization_key = RAT_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = RAT_UNIFIED } localization_key = RAT_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = MAJ_UNIFIED } localization_key = MAJ_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = MAJ_UNIFIED } localization_key = MAJ_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = MAJ_UNIFIED } localization_key = MAJ_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = MAJ_UNIFIED } localization_key = MAJ_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = MUT_UNIFIED } localization_key = MUT_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = MUT_UNIFIED } localization_key = MUT_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = MUT_UNIFIED } localization_key = MUT_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = MUT_UNIFIED } localization_key = MUT_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = GCO_UNIFIED } localization_key = GCO_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = GCO_UNIFIED } localization_key = GCO_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = GCO_UNIFIED } localization_key = GCO_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = GCO_UNIFIED } localization_key = GCO_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = USC_UNIFIED } localization_key = USC_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = USC_UNIFIED } localization_key = USC_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = USC_UNIFIED } localization_key = USC_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = USC_UNIFIED } localization_key = USC_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = FRANCO_SPAIN } localization_key = FRANCO_SPAIN_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = FRANCO_SPAIN } localization_key = FRANCO_SPAIN_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = FRANCO_SPAIN } localization_key = FRANCO_SPAIN_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = FRANCO_SPAIN } localization_key = FRANCO_SPAIN_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = SLAVIC_UNIFIED } localization_key = SLAV_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = SLAVIC_UNIFIED } localization_key = SLAV_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SLAVIC_UNIFIED } localization_key = SLAV_ins_C }
+text = { trigger = { has_cosmetic_tag = SLAVIC_UNIFIED } localization_key = SLAV_ins }
+
+text = { trigger = { has_cosmetic_tag = UBF_united_balkan_federation } localization_key = UBF_ins }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = TBE_third_bulgarian_empire } localization_key = TBE_ins_FN }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = TBE_third_bulgarian_empire } localization_key = TBE_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = TBE_third_bulgarian_empire } localization_key = TBE_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = EST_UGRA } localization_key = UGRA_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = EST_UGRA } localization_key = UGRA_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = EST_UGRA } localization_key = UGRA_ins_C }
+text = { trigger = { has_cosmetic_tag = EST_UGRA } localization_key = UGRA_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = EST_FIN } localization_key = EST_FIN_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = EST_FIN } localization_key = EST_FIN_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = EST_FIN } localization_key = EST_FIN_ins_C }
+text = { trigger = { has_cosmetic_tag = EST_FIN } localization_key = EST_FIN_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = TRN } localization_key = TRN_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = TRN } localization_key = TRN_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = TRN } localization_key = TRN_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = TRN } localization_key = TRN_ins_C }
+
+text = { trigger = { has_cosmetic_tag = turkestan_united is_SOV_ssr = yes } localization_key = TKS_SOV_subject_ins_C }
+text = { trigger = { gvt_F = yes has_cosmetic_tag = turkestan_united } localization_key = TKS_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = turkestan_united } localization_key = TKS_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = turkestan_united } localization_key = TKS_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = turkestan_united } localization_key = TKS_ins_C }
+text = { trigger = { has_cosmetic_tag = turkestan_united } localization_key = TKS_ins }
+
+text = { trigger = { has_cosmetic_tag = transcaucasia_unified is_SOV_ssr = yes } localization_key = TRC_SOV_ins_C }
+text = { trigger = { gvt_F = yes has_cosmetic_tag = transcaucasia_unified } localization_key = TRC_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = transcaucasia_unified } localization_key = TRC_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = transcaucasia_unified } localization_key = TRC_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = transcaucasia_unified } localization_key = TRC_ins_C }
+text = { trigger = { has_cosmetic_tag = transcaucasia_unified } localization_key = TRC_ins }
+
+text = { trigger = { has_cosmetic_tag = mountainous_republics_unified is_SOV_ssr = yes } localization_key = NCA_SOV_ins_C }
+text = { trigger = { gvt_F = yes has_cosmetic_tag = mountainous_republics_unified } localization_key = NCA_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = mountainous_republics_unified } localization_key = NCA_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = mountainous_republics_unified } localization_key = NCA_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = mountainous_republics_unified } localization_key = NCA_ins_C }
+text = { trigger = { has_cosmetic_tag = mountainous_republics_unified } localization_key = NCA_ins }
+
+text = { trigger = { has_cosmetic_tag = siberia_unified is_SOV_ssr = yes } localization_key = SIB_SOV_ins_C }
+text = { trigger = { gvt_F = yes has_cosmetic_tag = siberia_unified } localization_key = SIB_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = siberia_unified } localization_key = SIB_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = siberia_unified } localization_key = SIB_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = siberia_unified } localization_key = SIB_ins_C }
+text = { trigger = { has_cosmetic_tag = siberia_unified } localization_key = SIB_ins }
+
+text = { trigger = { has_cosmetic_tag = idel_ural is_SOV_ssr = yes } localization_key = IDU_SOV_ins_C }
+text = { trigger = { gvt_F = yes has_cosmetic_tag = idel_ural } localization_key = IDU_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = idel_ural } localization_key = IDU_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = idel_ural } localization_key = IDU_ins_C }
+text = { trigger = { has_cosmetic_tag = idel_ural } localization_key = IDU_ins }
+
+text = { trigger = { has_cosmetic_tag = united_polynesia is_dominion = yes } localization_key = PLN_dominion_ins }
+text = { trigger = { gvt_F = yes has_cosmetic_tag = united_polynesia } localization_key = PLN_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = united_polynesia } localization_key = PLN_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = united_polynesia } localization_key = PLN_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = united_polynesia } localization_key = PLN_ins_C }
+text = { trigger = { has_cosmetic_tag = united_polynesia } localization_key = PLN_ins }
+
+### OTHER COSMETIC TAGS ###
+text = { trigger = { gvt_F = yes has_cosmetic_tag = GER_greater_german_reich } localization_key = GGR_ins_F }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = GER_provisional_gvt } localization_key = GER_provisional_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = GER_provisional_gvt } localization_key = GER_provisional_ins_N }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = GER_german_empire } localization_key = GER_empire_ins_N }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = GER_german_monarchy } localization_key = GER_monarchy_ins_D }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = USA_CSA } localization_key = USA_CSA_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = USA_CSA } localization_key = USA_CSA_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = USA_CSA } localization_key = USA_CSA_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = USA_CSA } localization_key = USA_CSA_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = USA_REBEL } localization_key = USA_REBEL_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = USA_REBEL } localization_key = USA_REBEL_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = USA_REBEL } localization_key = USA_REBEL_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = USA_REBEL } localization_key = USA_REBEL_ins_C }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = USA_wallis_simpson } localization_key = USA_simpson_ins_N }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = ENG_imperial_federation } localization_key = ENG_imperial_federation_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = ENG_imperial_federation } localization_key = ENG_imperial_federation_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = ENG_imperial_federation } localization_key = ENG_imperial_federation_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = ENG_imperial_federation } localization_key = ENG_imperial_federation_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = ENG_imperial_federation_india } localization_key = ENG_imperial_federation_india_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = ENG_imperial_federation_india } localization_key = ENG_imperial_federation_india_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = ENG_imperial_federation_india } localization_key = ENG_imperial_federation_india_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = ENG_imperial_federation_india } localization_key = ENG_imperial_federation_india_ins_C }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = ENG_imperialist_canada } localization_key = ENG_imperialist_CAN_ins_FN }
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = CAN_north_america_dominion } localization_key = CAN_NAD_ins_FN }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = ENG_imperialist_south_africa } localization_key = ENG_imperialist_SAF_ins_FN }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = ENG_imperialist_australia } localization_key = ENG_imperialist_AST_ins_FN }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = ENG_imperialist_new_zealand } localization_key = ENG_imperialist_NZL_ins_FN }
+
+text = { trigger = { gvt_C = yes has_cosmetic_tag = ENG_communist_civil_war } localization_key = ENG_CCW_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = ENG_england } localization_key = ENG_england_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = ENG_england } localization_key = ENG_england_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = ENG_england } localization_key = ENG_england_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = ENG_england } localization_key = ENG_england_ins_C }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = FRA_FREE } localization_key = FRA_FREE_ins }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = FRA_VICHY } localization_key = FRA_VICHY_ins }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = FRA_THIRD_EMPIRE } localization_key = FRA_THIRD_EMPIRE_ins_N }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = FRA_ORLEANS } localization_key = FRA_ORLEANS_ins_N }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = FRA_UK } localization_key = FRA_UK_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = FRA_UK } localization_key = FRA_UK_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = FRA_UK } localization_key = FRA_UK_ins_C }
+
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SOV_russia } localization_key = SOV_russia_ins_C }
+
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SOV_left_opposition } localization_key = SOV_left_opposition_ins_C }
+
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SOV_right_opposition } localization_key = SOV_right_opposition_ins_C }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SOV_PROVISIONAL } localization_key = RUS_provisional_ins_N }
+
+text = { trigger = { gvt_C = yes has_cosmetic_tag = russian_empire } localization_key = RUS_empire_ins_C }
+
+text = { trigger = { has_cosmetic_tag = SOV_ROME } localization_key = ROME_ins }
+
+text = { trigger = { has_cosmetic_tag = SOV_PANSLAVIC } localization_key = PSLV_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = POL_SANATION } localization_key = POL_sanation_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = POL_SANATION } localization_key = POL_sanation_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = POL_SANATION } localization_key = POL_sanation_ins_N }
+
+text = { trigger = { has_cosmetic_tag = POL_KINGDOM } localization_key = POL_KINGDOM_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = POL_KINGDOM_RUS } localization_key = POL_KINGDOM_RUS_ins_F }
+text = { trigger = { has_cosmetic_tag = POL_KINGDOM_RUS } localization_key = POL_KINGDOM_RUS_ins }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = POL_PEASANT } localization_key = POL_PEASANT_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = POL_PEASANT } localization_key = POL_PEASANT_ins_C }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = POL_ROM_UNION } localization_key = POL_ROM_union_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = POL_ROM_UNION } localization_key = POL_ROM_union_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = POL_ROM_UNION } localization_key = POL_ROM_union_ins_C }
+text = { trigger = { has_cosmetic_tag = POL_ROM_UNION } localization_key = POL_ROM_union_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = POL_EMPIRE } localization_key = POL_empire_ins_F }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = POL_NATDEM } localization_key = POL_natdem_ins_F }
+
+text = { trigger = { gvt_N = yes is_subject = yes has_cosmetic_tag = GREATER_LIT } localization_key = GREATER_LIT_subject_ins_N }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = GREATER_LIT } localization_key = GREATER_LIT_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = GREATER_LIT } localization_key = GREATER_LIT_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = GREATER_LIT } localization_key = GREATER_LIT_ins_C }
+text = { trigger = { has_cosmetic_tag = GREATER_LIT } localization_key = GREATER_LIT_ins }
+
+text = { trigger = { has_cosmetic_tag = BLR_baltic } localization_key = BLR_baltic_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = LIT_belarus } localization_key = LIT_belarus_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = LIT_belarus } localization_key = LIT_belarus_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = LIT_belarus } localization_key = LIT_belarus_ins_C }
+text = { trigger = { has_cosmetic_tag = LIT_belarus } localization_key = LIT_belarus_ins }
+
+text = { trigger = { is_subject_of = POL has_cosmetic_tag = LIT_MONARCHY } localization_key = LIT_monarchy_POL_subject_ins }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = LIT_MONARCHY } localization_key = LIT_monarchy_ins_D }
+text = { trigger = { has_cosmetic_tag = LIT_MONARCHY } localization_key = LIT_monarchy_ins }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = LIT_MIL } localization_key = LIT_military_ins_N }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = LAT_belarus } localization_key = LAT_belarus_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = LAT_belarus } localization_key = LAT_belarus_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = LAT_belarus } localization_key = LAT_belarus_ins_C }
+text = { trigger = { has_cosmetic_tag = LAT_belarus } localization_key = LAT_belarus_ins }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = LAT_MIL } localization_key = LAT_military_ins_N }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = EST_belarus } localization_key = EST_belarus_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = EST_belarus } localization_key = EST_belarus_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = EST_belarus } localization_key = EST_belarus_ins_C }
+text = { trigger = { has_cosmetic_tag = EST_belarus } localization_key = EST_belarus_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = CZE_ONLY } localization_key = CZR_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = CZE_ONLY } localization_key = CZR_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = CZE_ONLY } localization_key = CZR_ins_C }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = HUN_GREATER } localization_key = HUN_greater_ins_FN }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = HUN_GREATER } localization_key = HUN_greater_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = HUN_GREATER } localization_key = HUN_greater_ins_C }
+
+text = { trigger = { gvt_FD = yes has_cosmetic_tag = HUN_MONARCHY } localization_key = HUN_monarchy_ins_FD }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = HUN_EMPIRE } localization_key = HUN_empire_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = HUN_EMPIRE } localization_key = HUN_empire_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = HUN_EMPIRE } localization_key = HUN_empire_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = HUN_EMPIRE } localization_key = HUN_empire_ins_C }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = SPR_republican_spain } localization_key = SPAIN_peo_rep_spain_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SPR_republican_spain } localization_key = SPAIN_peo_rep_spain_ins_C }
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = SPR_nationalist_spain } localization_key = SPAIN_nat2_spain_ins }
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = SPA_directory } localization_key = SPAIN_dir_ins }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = SPA_spanish_empire } localization_key = SPAIN_emp2_ins }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_anarchist_aragon } localization_key = SPAIN_ana_ara_ins_N }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_anarchist_spain } localization_key = SPAIN_ana_spa_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SPR_anarchist_spain } localization_key = SPAIN_ana_spa_ins_C }
+text = { trigger = { gvt_N = yes is_subject_of = SPR gvt_N = yes } localization_key = SPAIN_ana_por_ins_N }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_anarchist_iberia } localization_key = SPAIN_ana_ibe_ins_N }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_anarchist_global } localization_key = SPAIN_ana_glo_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SPC_poum } localization_key = SPAIN_POUM_ins_C }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPC_regional_defense_council_of_iberia } localization_key = SPAIN_RDCI_ins_N }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPC_global_defense_council } localization_key = SPAIN_GDC_ins }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_carlist_spain } localization_key = SPAIN_car2_ins_N }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPB_kingdom } localization_key = SPAIN_king_ins_N }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = SPR_republican_castille } localization_key = SPAIN_rep_cas_ins_D }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SPR_republican_castille } localization_key = SPAIN_rep_cas_ins_C }
+text = { trigger = { gvt_F = yes has_cosmetic_tag = SPR_nationalist_castille } localization_key = SPAIN_nat_cas_ins_F }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_nationalist_castille } localization_key = SPAIN_nat_cas_ins_N }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_anarchist_castille } localization_key = SPAIN_ana_cas_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SPR_anarchist_castille } localization_key = SPAIN_ana_cas_ins_C }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_carlist_castille } localization_key = SPAIN_car_cas_ins_N }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = SPR_castille } localization_key = SPAIN_castille_ins_F }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = SPR_castille } localization_key = SPAIN_castille_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = SPR_castille } localization_key = SPAIN_castille_ins_C }
+text = { trigger = { has_cosmetic_tag = SPR_castille } localization_key = SPAIN_castille_ins }
+
+text = { trigger = { gvt_FN = yes has_cosmetic_tag = POR_empire } localization_key = POR_empire_ins_FN }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = KOP_kingdom_portugal } localization_key = KOP_ins_N }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = EOB_empire_brazil } localization_key = EOB_ins_N }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = KPB_kingdom_portugal_and_brazil } localization_key = KPB_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = KPB_kingdom_portugal_and_brazil } localization_key = KPB_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = KPB_kingdom_portugal_and_brazil } localization_key = KPB_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = KPB_kingdom_portugal_and_brazil } localization_key = KPB_ins_C }
+text = { trigger = { has_cosmetic_tag = KPB_kingdom_portugal_and_brazil } localization_key = KPB_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = ESU_POR_unified } localization_key = ESU_POR_ins_F }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = ESU_POR_unified } localization_key = ESU_POR_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = ESU_POR_unified } localization_key = ESU_POR_ins_C }
+text = { trigger = { has_cosmetic_tag = ESU_POR_unified } localization_key = ESU_POR_ins }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = GRE_byz_republic } localization_key = GRE_byz_republic_ins_F }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = GRE_dem_monarchy } localization_key = GRE_dem_monarchy_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = GRE_dem_monarchy } localization_key = GRE_dem_monarchy_ins_D }
+
+text = { trigger = { gvt_C = yes has_cosmetic_tag = GRE_com_independent } localization_key = GRE_com_independent_ins_C }
+
+text = { trigger = { gvt_C = yes has_cosmetic_tag = GRE_stalinist } localization_key = GRE_stalinist_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = GRE_GREATER_GREECE } localization_key = GRE_greater_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = GRE_GREATER_GREECE } localization_key = GRE_greater_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = GRE_GREATER_GREECE } localization_key = GRE_greater_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = GRE_GREATER_GREECE } localization_key = GRE_greater_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = MAE } localization_key = MAE_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = MAE } localization_key = MAE_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = MAE } localization_key = MAE_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = MAE } localization_key = MAE_ins_C }
+
+text = { trigger = { gvt_N = yes has_cosmetic_tag = ROM_polish_loyalists } localization_key = ROM_polish_loyalists_ins_N }
+
+text = { trigger = { has_cosmetic_tag = BUL_zveno_bulgaria } localization_key = BUL_zveno_ins }
+
+text = { trigger = { has_cosmetic_tag = BUL_constitutional_monarchy } localization_key = BUL_const_monarchy_ins }
+
+text = { trigger = { has_cosmetic_tag = BUL_ff_bulgaria } localization_key = BUL_ff_ins }
+
+text = { trigger = { has_cosmetic_tag = TUR_PROVISIONARY } localization_key = TUR_provisional_ins }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = CHI_warlord_leader } localization_key = CHI_leader_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = CHI_warlord_leader } localization_key = CHI_leader_ins_N }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = CHI_warlord_PRC } localization_key = CHI_warlord_PRC_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = CHI_warlord_PRC } localization_key = CHI_warlord_PRC_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = CHI_warlord_PRC } localization_key = CHI_warlord_PRC_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = CHI_warlord_PRC } localization_key = CHI_warlord_PRC_ins_C }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = CHI_power_struggle_defeated } localization_key = CHI_defeated_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = CHI_power_struggle_defeated } localization_key = CHI_defeated_ins_N }
+
+text = { trigger = { gvt_D = yes has_cosmetic_tag = PRC_proclaimed } localization_key = PRC_proclaimed_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = PRC_proclaimed } localization_key = PRC_proclaimed_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = PRC_proclaimed } localization_key = PRC_proclaimed_ins_C }
+
+text = { trigger = { gvt_F = yes has_cosmetic_tag = JAP_showa_restoration } localization_key = JAP_showa_ins_F }
+text = { trigger = { gvt_D = yes has_cosmetic_tag = JAP_showa_restoration } localization_key = JAP_showa_ins_D }
+text = { trigger = { gvt_N = yes has_cosmetic_tag = JAP_showa_restoration } localization_key = JAP_showa_ins_N }
+text = { trigger = { gvt_C = yes has_cosmetic_tag = JAP_showa_restoration } localization_key = JAP_showa_ins_C }
+
+text = { trigger = { gvt_FN = yes OR = { is_subject_of = SPR is_subject_of = SPA } has_cosmetic_tag = MEX_cristero } localization_key = MEX_cristero_SPAIN_subject_ins_FN }
+text = { trigger = { has_cosmetic_tag = MEX_cristero } localization_key = MEX_cristero_ins_F }
+text = { trigger = { has_cosmetic_tag = MEX_cristero } localization_key = MEX_cristero_ins_D }
+text = { trigger = { has_cosmetic_tag = MEX_cristero } localization_key = MEX_cristero_ins_N }
+text = { trigger = { has_cosmetic_tag = MEX_cristero } localization_key = MEX_cristero_ins_C }
+
+text = { trigger = { has_cosmetic_tag = MAN_kwantung_army gvt_F = yes } localization_key = MAN_kwantung_ins_F }
+text = { trigger = { has_cosmetic_tag = MAN_kwantung_army gvt_D = yes } localization_key = MAN_kwantung_ins_D }
+text = { trigger = { has_cosmetic_tag = MAN_kwantung_army gvt_C = yes } localization_key = MAN_kwantung_ins_C }
+
+text = { trigger = { has_cosmetic_tag = MAN_restored gvt_FN = yes } localization_key = MAN_restored_ins_FN }
+text = { trigger = { has_cosmetic_tag = MAN_restored gvt_D = yes } localization_key = MAN_restored_ins_D }
+text = { trigger = { has_cosmetic_tag = MAN_restored gvt_C = yes } localization_key = MAN_restored_ins_C }
+
+text = { trigger = { has_cosmetic_tag = BOS_without_HRZ is_subject_of = ITA gvt_F = yes } localization_key = BOS_ITA_subject_ins_F }
+text = { trigger = { has_cosmetic_tag = BOS_without_HRZ gvt_F = yes } localization_key = BOS_without_HRZ_ins_F }
+text = { trigger = { has_cosmetic_tag = BOS_without_HRZ gvt_D = yes } localization_key = BOS_without_HRZ_ins_D }
+
+text = { trigger = { has_cosmetic_tag = CAT_aragon gvt_F = yes } localization_key = CAT_aragon_ins_F }
+text = { trigger = { has_cosmetic_tag = CAT_aragon gvt_D = yes } localization_key = CAT_aragon_ins_D }
+text = { trigger = { has_cosmetic_tag = CAT_aragon gvt_N = yes } localization_key = CAT_aragon_ins_N }
+text = { trigger = { has_cosmetic_tag = CAT_aragon gvt_C = yes } localization_key = CAT_aragon_ins_C }
+text = { trigger = { has_cosmetic_tag = CAT_aragon } localization_key = CAT_aragon_ins }
+
+text = { trigger = { has_cosmetic_tag = ITA_rsi } localization_key = ITA_RSI_ins }
+
+text = { trigger = { has_cosmetic_tag = ITA_rds } localization_key = ITA_RDS_ins }
+
+text = { trigger = { has_cosmetic_tag = ETH_ethiopian_federation } localization_key = ETH_FED_ins_D }
+
+text = { trigger = { has_cosmetic_tag = ETH_African_Union gvt_F = yes } localization_key = ETH_AU_ins_F }
+text = { trigger = { has_cosmetic_tag = ETH_African_Union gvt_DNC = yes } localization_key = ETH_AU_ins_DNC }
+
+text = { trigger = { has_cosmetic_tag = empire_of_axum gvt_C = yes } localization_key = EOA_ins_C }
+text = { trigger = { has_cosmetic_tag = empire_of_axum } localization_key = EOA_ins }
+
+text = { trigger = { has_cosmetic_tag = empire_of_solomon gvt_D = yes } localization_key = EOS_ins_D }
+text = { trigger = { has_cosmetic_tag = empire_of_solomon gvt_C = yes } localization_key = EOS_ins_C }
+text = { trigger = { has_cosmetic_tag = empire_of_solomon } localization_key = EOS_ins }
+
+text = { trigger = { has_cosmetic_tag = empire_of_zion gvt_D = yes } localization_key = EOZ_ins_D }
+text = { trigger = { has_cosmetic_tag = empire_of_zion gvt_C = yes } localization_key = EOZ_ins_C }
+text = { trigger = { has_cosmetic_tag = empire_of_zion } localization_key = EOZ_ins }
+
+text = { trigger = { has_cosmetic_tag = greater_ethiopia gvt_D = yes } localization_key = ETH_greater_ins_D }
+text = { trigger = { has_cosmetic_tag = greater_ethiopia gvt_C = yes } localization_key = ETH_greater_ins_C }
+text = { trigger = { has_cosmetic_tag = greater_ethiopia } localization_key = ETH_greater_ins }
+
+text = { trigger = { has_cosmetic_tag = greater_gojjam gvt_D = yes } localization_key = GOJ_greater_ins_D }
+text = { trigger = { has_cosmetic_tag = greater_gojjam gvt_C = yes } localization_key = GOJ_greater_ins_C }
+text = { trigger = { has_cosmetic_tag = greater_gojjam } localization_key = GOJ_greater_ins }
+
+text = { trigger = { has_cosmetic_tag = greater_jimma gvt_D = yes } localization_key = JIM_greater_ins_D }
+text = { trigger = { has_cosmetic_tag = greater_jimma gvt_C = yes } localization_key = JIM_greater_ins_C }
+text = { trigger = { has_cosmetic_tag = greater_jimma } localization_key = JIM_greater_ins }
+
+text = { trigger = { has_cosmetic_tag = east_africa gvt_F = yes } localization_key = EAF_ins_F }
+text = { trigger = { has_cosmetic_tag = east_africa gvt_D = yes } localization_key = EAF_ins_D }
+text = { trigger = { has_cosmetic_tag = east_africa gvt_N = yes } localization_key = EAF_ins_N }
+text = { trigger = { has_cosmetic_tag = east_africa gvt_C = yes } localization_key = EAF_ins_C }
+text = { trigger = { has_cosmetic_tag = east_africa } localization_key = EAF_ins }
+
+text = { trigger = { has_cosmetic_tag = italo_ethiopian_empire gvt_F = yes } localization_key = IAE_ins_F }
+
+text = { trigger = { has_cosmetic_tag = horn_of_africa gvt_F = yes } localization_key = HOA_ins_F }
+text = { trigger = { has_cosmetic_tag = horn_of_africa gvt_D = yes } localization_key = HOA_ins_D }
+text = { trigger = { has_cosmetic_tag = horn_of_africa gvt_N = yes } localization_key = HOA_ins_N }
+text = { trigger = { has_cosmetic_tag = horn_of_africa gvt_C = yes } localization_key = HOA_ins_C }
+
+text = { trigger = { has_cosmetic_tag = greater_italy gvt_F = yes } localization_key = ITA_greater_ins_F }
+text = { trigger = { has_cosmetic_tag = greater_italy gvt_D = yes } localization_key = ITA_greater_ins_D }
+text = { trigger = { has_cosmetic_tag = greater_italy gvt_N = yes } localization_key = ITA_greater_ins_N }
+text = { trigger = { has_cosmetic_tag = greater_italy gvt_C = yes } localization_key = ITA_greater_ins_C }
+
+text = { trigger = { has_cosmetic_tag = regnum_bospori gvt_D = yes } localization_key = REB_ins_D }
+text = { trigger = { has_cosmetic_tag = regnum_bospori gvt_C = yes } localization_key = REB_ins_C }
+text = { trigger = { has_cosmetic_tag = regnum_bospori } localization_key = REB_ins }
+
+text = { trigger = { has_cosmetic_tag = papal_states gvt_F = yes } localization_key = PAPS_ins_F }
+text = { trigger = { has_cosmetic_tag = papal_states gvt_D = yes } localization_key = PAPS_ins_D }
+text = { trigger = { has_cosmetic_tag = papal_states gvt_N = yes } localization_key = PAPS_ins_N }
+text = { trigger = { has_cosmetic_tag = papal_states gvt_C = yes } localization_key = PAPS_ins_C }
+
+text = { trigger = { has_cosmetic_tag = ITA_socialist_republic gvt_F = yes } localization_key = ITA_SOC_ins_F }
+text = { trigger = { has_cosmetic_tag = ITA_socialist_republic gvt_D = yes } localization_key = ITA_SOC_ins_D }
+text = { trigger = { has_cosmetic_tag = ITA_socialist_republic gvt_N = yes } localization_key = ITA_SOC_ins_N }
+text = { trigger = { has_cosmetic_tag = ITA_socialist_republic gvt_C = yes } localization_key = ITA_SOC_ins_C }
+
+text = { trigger = { has_cosmetic_tag = ethiopia_anarcho_communist } localization_key = EAC_ins }
+
+text = { trigger = { has_cosmetic_tag = SWI_helvetic_republic } localization_key = SWI_helvetic_republic_ins }
+
+text = { trigger = { has_cosmetic_tag = SWI_alpine gvt_F = yes } localization_key = SWI_alpine_ins_F }
+text = { trigger = { has_cosmetic_tag = SWI_alpine gvt_D = yes } localization_key = SWI_alpine_ins_D }
+text = { trigger = { has_cosmetic_tag = SWI_alpine gvt_N = yes } localization_key = SWI_alpine_ins_N }
+text = { trigger = { has_cosmetic_tag = SWI_alpine gvt_C = yes } localization_key = SWI_alpine_ins_C }
+
+text = { trigger = { has_cosmetic_tag = ITA_italian_empire gvt_FN = yes } localization_key = ITA_empire_ins_FN }
+text = { trigger = { has_cosmetic_tag = ITA_italian_empire gvt_D = yes } localization_key = ITA_empire_ins_D }
+text = { trigger = { has_cosmetic_tag = ITA_italian_empire gvt_C = yes } localization_key = ITA_empire_ins_C }
+
+text = { trigger = { has_cosmetic_tag = vojvodina is_subject_of = YUG } localization_key = VOJ_YUG_subject_ins }
+text = { trigger = { has_cosmetic_tag = vojvodina gvt_F = yes } localization_key = VOJ_ins_F }
+text = { trigger = { has_cosmetic_tag = vojvodina gvt_D = yes } localization_key = VOJ_ins_D }
+text = { trigger = { has_cosmetic_tag = vojvodina gvt_C = yes } localization_key = VOJ_ins_C }
+text = { trigger = { has_cosmetic_tag = vojvodina } localization_key = VOJ_ins }
+
+text = { trigger = { has_cosmetic_tag = dalmatia is_subject_of = ITA gvt_F = yes } localization_key = DAL_ITA_subject_ins_F }
+text = { trigger = { has_cosmetic_tag = dalmatia is_subject_of = YUG } localization_key = DAL_YUG_subject_ins }
+text = { trigger = { has_cosmetic_tag = dalmatia gvt_F = yes } localization_key = DAL_ins_F }
+text = { trigger = { has_cosmetic_tag = dalmatia gvt_D = yes } localization_key = DAL_ins_D }
+text = { trigger = { has_cosmetic_tag = dalmatia gvt_N = yes } localization_key = DAL_ins_N }
+text = { trigger = { has_cosmetic_tag = dalmatia gvt_C = yes } localization_key = DAL_ins_C }
+text = { trigger = { has_cosmetic_tag = dalmatia } localization_key = DAL_ins }
+
+text = { trigger = { has_cosmetic_tag = gojjam is_subject_of = ITA gvt_F = yes } localization_key = GOJ_ITA_subject_ins_F }
+text = { trigger = { has_cosmetic_tag = gojjam gvt_F = yes } localization_key = GOJ_ins_F }
+text = { trigger = { has_cosmetic_tag = gojjam gvt_N = yes } localization_key = GOJ_ins_N }
+text = { trigger = { has_cosmetic_tag = gojjam gvt_C = yes } localization_key = GOJ_ins_C }
+text = { trigger = { has_cosmetic_tag = gojjam } localization_key = GOJ_ins }
+
+text = { trigger = { has_cosmetic_tag = jimma is_subject_of = ITA gvt_F = yes } localization_key = JIM_ITA_subject_ins_F }
+text = { trigger = { has_cosmetic_tag = jimma gvt_F = yes } localization_key = JIM_ins_F }
+text = { trigger = { has_cosmetic_tag = jimma gvt_D = yes } localization_key = JIM_ins_D }
+text = { trigger = { has_cosmetic_tag = jimma gvt_N = yes } localization_key = JIM_ins_N }
+text = { trigger = { has_cosmetic_tag = jimma gvt_C = yes } localization_key = JIM_ins_C }
+text = { trigger = { has_cosmetic_tag = jimma } localization_key = JIM_ins }
+
+text = { trigger = { has_autonomy_state = autonomy_collaboration_government } localization_key = COUNTRY_collab_ins }
+
+### GENERIC COUNTRY NAMES (INCLUDING PUPPETS) ###
+text = { trigger = { tag = GER is_SOV_ssr = yes is_regpuppet = yes } localization_key = GER_SOV_puppet_ins_C }
+text = { trigger = { tag = GER is_regpuppet = yes } localization_key = GER_puppet_ins }
+text = { trigger = { tag = GER is_superstate = yes } localization_key = GER_superstate_ins }
+text = { trigger = { tag = GER gvt_D = yes has_cosmetic_tag = GER_provisional } localization_key = GER_provisional_ins_D }
+text = { trigger = { tag = GER gvt_N = yes has_cosmetic_tag = GER_provisional } localization_key = GER_provisional_ins_N }
+text = { trigger = { tag = GER gvt_N = yes has_cosmetic_tag = GER_empire } localization_key = GER_empire_ins_N }
+text = { trigger = { tag = GER gvt_D = yes has_cosmetic_tag = GER_monarchy } localization_key = GER_monarchy_ins_N }
+text = { trigger = { tag = GER gvt_F = yes } localization_key = GER_ins_F }
+text = { trigger = { tag = GER gvt_D = yes } localization_key = GER_ins_D }
+text = { trigger = { tag = GER gvt_N = yes } localization_key = GER_ins_N }
+text = { trigger = { tag = GER gvt_C = yes } localization_key = GER_ins_C }
+text = { trigger = { tag = GER } localization_key = GER_ins }
+
+text = { trigger = { tag = ITA is_subject = yes } localization_key = ITA_subject_ins }
+text = { trigger = { tag = ITA gvt_D = yes } localization_key = ITA_ins_D }
+text = { trigger = { tag = ITA gvt_N = yes } localization_key = ITA_ins_N }
+text = { trigger = { tag = ITA gvt_C = yes } localization_key = ITA_ins_C }
+text = { trigger = { tag = ITA } localization_key = ITA_ins }
+
+text = { trigger = { tag = USA is_subject_of = ENG is_dominion = yes has_cosmetic_tag = USA_UK } localization_key = USA_ENG_dominion_ins }
+text = { trigger = { tag = USA is_subject_of = ENG is_colony = yes has_cosmetic_tag = USA_UK } localization_key = USA_ENG_colony_ins }
+text = { trigger = { tag = USA is_subject_of = ENG is_regpuppet = yes has_cosmetic_tag = USA_UK } localization_key = USA_ENG_puppet_ins }
+text = { trigger = { tag = USA is_subject_of = ENG is_intpuppet = yes has_cosmetic_tag = USA_UK } localization_key = USA_ENG_intpuppet_ins }
+text = { trigger = { tag = USA is_SAF_edward = yes is_dominion = yes } localization_key = USA_SAF_edward_dominion_ins }
+text = { trigger = { tag = USA is_SAF_edward = yes is_colony = yes } localization_key = USA_SAF_edward_colony_ins }
+text = { trigger = { tag = USA is_SAF_edward = yes is_regpuppet = yes } localization_key = USA_SAF_edward_puppet_ins }
+text = { trigger = { tag = USA is_SAF_edward = yes is_intpuppet = yes } localization_key = USA_SAF_edward_intpuppet_ins }
+text = { trigger = { tag = USA gvt_F = yes is_subject = yes } localization_key = USA_subject_ins_F }
+text = { trigger = { tag = USA gvt_D = yes is_subject = yes } localization_key = USA_subject_ins_D }
+text = { trigger = { tag = USA gvt_N = yes is_subject = yes } localization_key = USA_subject_ins_N }
+text = { trigger = { tag = USA gvt_C = yes is_subject = yes } localization_key = USA_subject_ins_C }
+text = { trigger = { tag = USA gvt_F = yes } localization_key = USA_ins_F }
+text = { trigger = { tag = USA gvt_D = yes } localization_key = USA_ins_D }
+text = { trigger = { tag = USA gvt_C = yes } localization_key = USA_ins_C }
+text = { trigger = { tag = USA } localization_key = USA_ins }
+
+text = { trigger = { tag = ENG is_SOV_ssr = yes } localization_key = ENG_SOV_subject_ins_C }
+text = { trigger = { tag = ENG gvt_F = yes is_subject = yes } localization_key = ENG_subject_ins_F }
+text = { trigger = { tag = ENG gvt_DN = yes is_subject = yes } localization_key = ENG_subject_ins_DN }
+text = { trigger = { tag = ENG gvt_C = yes is_subject = yes } localization_key = ENG_subject_ins_C }
+text = { trigger = { tag = ENG gvt_F = yes } localization_key = ENG_ins_F }
+text = { trigger = { tag = ENG gvt_D = yes } localization_key = ENG_ins_D }
+text = { trigger = { tag = ENG gvt_N = yes } localization_key = ENG_ins_N }
+text = { trigger = { tag = ENG gvt_C = yes } localization_key = ENG_ins_C }
+text = { trigger = { tag = ENG } localization_key = ENG_ins }
+
+text = { trigger = { tag = FRA is_GER_rp = yes } localization_key = FRA_vichy_subject_ins }
+#text = { trigger = { tag = FRA is_subject_of = ENG has_cosmetic_tag = FRA_UK gvt_F = yes } localization_key = FRA_UK_ins_F }
+text = { trigger = { tag = FRA is_subject = yes } localization_key = FRA_subject_ins }
+text = { trigger = { tag = FRA gvt_F = yes } localization_key = FRA_ins_F }
+text = { trigger = { tag = FRA gvt_N = yes } localization_key = FRA_ins_N }
+text = { trigger = { tag = FRA gvt_C = yes } localization_key = FRA_ins_C }
+text = { trigger = { tag = FRA } localization_key = FRA_ins }
+
+text = { trigger = { tag = SOV is_subject_of = GER is_commissariat = yes gvt_F = yes } localization_key = SOV_GER_commissariat_ins_F }
+text = { trigger = { tag = SOV is_dominion = yes } localization_key = SOV_dominion_ins }
+text = { trigger = { tag = SOV OR = { is_colony = yes is_regpuppet = yes } } localization_key = SOV_puppet_ins }
+text = { trigger = { tag = SOV is_intpuppet = yes } localization_key = SOV_intpuppet_ins }
+text = { trigger = { tag = SOV is_protectorate = yes } localization_key = SOV_protectorate_ins }
+text = { trigger = { tag = SOV is_commissariat = yes } localization_key = SOV_commissariat_ins }
+text = { trigger = { tag = SOV has_autonomy_state = autonomy_wtt_imperial_protectorate } localization_key = SOV_impprotectorate_ins }
+text = { trigger = { tag = SOV is_superstate = yes } localization_key = SOV_superstate_ins }
+text = { trigger = { tag = SOV gvt_F = yes } localization_key = SOV_ins_F }
+text = { trigger = { tag = SOV gvt_D = yes } localization_key = SOV_ins_D }
+text = { trigger = { tag = SOV gvt_C = yes } localization_key = SOV_ins_C }
+text = { trigger = { tag = SOV } localization_key = SOV_ins }
+
+text = { trigger = { tag = HOL is_GER_ubersat2 = yes } localization_key = HOL_GER_ubersatellite_ins_F }
+text = { trigger = { tag = HOL is_GER_untersat1 = yes } localization_key = HOL_GER_untersatellite_ins_F }
+text = { trigger = { tag = HOL is_GER_rp = yes } localization_key = HOL_GER_protectorate_ins_F }
+text = { trigger = { tag = HOL is_GER_rk = yes } localization_key = HOL_GER_commissariat_ins_F }
+text = { trigger = { tag = HOL is_subject_of = FRA gvt_D = yes } localization_key = HOL_FRA_subject_ins_D }
+text = { trigger = { tag = HOL is_subject = yes } localization_key = HOL_subject_ins }
+text = { trigger = { tag = HOL gvt_F = yes } localization_key = HOL_ins_F }
+text = { trigger = { tag = HOL gvt_N = yes } localization_key = HOL_ins_N }
+text = { trigger = { tag = HOL gvt_C = yes } localization_key = HOL_ins_C }
+text = { trigger = { tag = HOL } localization_key = HOL_ins }
+
+text = { trigger = { tag = BEL is_GER_ubersat2 = yes } localization_key = BEL_GER_ubersatellite_ins_F }
+text = { trigger = { tag = BEL is_GER_untersat1 = yes } localization_key = BEL_GER_untersatellite_ins_F }
+text = { trigger = { tag = BEL is_GER_rp = yes } localization_key = BEL_GER_protectorate_ins_F }
+text = { trigger = { tag = BEL is_GER_rk = yes } localization_key = BEL_GER_commissariat_ins_F }
+text = { trigger = { tag = BEL is_subject = yes } localization_key = BEL_subject_ins }
+text = { trigger = { tag = BEL gvt_F = yes } localization_key = BEL_ins_F }
+text = { trigger = { tag = BEL gvt_D = yes } localization_key = BEL_ins }
+text = { trigger = { tag = BEL gvt_N = yes } localization_key = BEL_ins_N }
+text = { trigger = { tag = BEL gvt_C = yes } localization_key = BEL_ins_C }
+text = { trigger = { tag = BEL } localization_key = BEL_ins }
+
+text = { trigger = { tag = LUX gvt_FD = yes } localization_key = LUX_ins }
+text = { trigger = { tag = LUX gvt_N = yes } localization_key = LUX_ins_N }
+text = { trigger = { tag = LUX gvt_C = yes } localization_key = LUX_ins_C }
+text = { trigger = { tag = LUX } localization_key = LUX_ins }
+
+text = { trigger = { tag = POL is_GER_rp = yes } localization_key = POL_GER_protectorate_ins_F }
+text = { trigger = { tag = POL is_subject_of = FRA gvt_N = yes } localization_key = POL_FRA_subject_ins_N }
+text = { trigger = { tag = POL is_SOV_ssr = yes } localization_key = POL_SOV_subject_ins_C }
+text = { trigger = { tag = POL is_subject = yes gvt_C = yes } localization_key = POL_subject_ins_C }
+text = { trigger = { tag = POL is_subject = yes } localization_key = POL_subject_ins }
+text = { trigger = { tag = POL gvt_F = yes } localization_key = POL_ins_F }
+text = { trigger = { tag = POL gvt_D = yes } localization_key = POL_ins_D }
+text = { trigger = { tag = POL gvt_N = yes } localization_key = POL_ins }
+text = { trigger = { tag = POL gvt_C = yes } localization_key = POL_ins_C }
+text = { trigger = { tag = POL } localization_key = POL_ins }
+
+text = { trigger = { tag = CZE is_GER_rp = yes } localization_key = CZE_GER_protectorate_ins_F }
+text = { trigger = { tag = CZE is_subject = yes } localization_key = CZE_subject_ins }
+text = { trigger = { tag = CZE gvt_F = yes } localization_key = CZE_ins_F }
+text = { trigger = { tag = CZE gvt_N = yes } localization_key = CZE_ins_N }
+text = { trigger = { tag = CZE gvt_C = yes } localization_key = CZE_ins_C }
+text = { trigger = { tag = CZE } localization_key = CZE_ins }
+
+text = { trigger = { tag = HUN is_subject = yes } localization_key = HUN_subject_ins }
+text = { trigger = { tag = HUN gvt_D = yes } localization_key = HUN_ins_D }
+text = { trigger = { tag = HUN gvt_N = yes } localization_key = HUN_ins_N }
+text = { trigger = { tag = HUN gvt_C = yes } localization_key = HUN_ins_C }
+text = { trigger = { tag = HUN } localization_key = HUN_ins }
+
+text = { trigger = { tag = AUS is_subject = yes } localization_key = AUS_subject_ins }
+text = { trigger = { tag = AUS gvt_F = yes } localization_key = AUS_ins_F }
+text = { trigger = { tag = AUS gvt_D = yes } localization_key = AUS_ins_D }
+text = { trigger = { tag = AUS gvt_C = yes } localization_key = AUS_ins_C }
+text = { trigger = { tag = AUS } localization_key = AUS_ins }
+
+text = { trigger = { tag = SWI is_subject_of = GER is_regpuppet = yes gvt_F = yes } localization_key = SWI_GER_puppet_ins_F }
+text = { trigger = { tag = SWI is_subject_of = GER is_regpuppet = yes gvt_D = yes } localization_key = SWI_GER_puppet_ins_D }
+text = { trigger = { tag = SWI is_subject_of = ITA is_regpuppet = yes gvt_F = yes } localization_key = SWI_ITA_puppet_ins_F }
+text = { trigger = { tag = SWI is_subject_of = ITA is_regpuppet = yes gvt_D = yes } localization_key = SWI_ITA_puppet_ins_D }
+text = { trigger = { tag = SWI is_subject_of = ENG is_regpuppet = yes gvt_F = yes } localization_key = SWI_ENG_puppet_ins_F }
+text = { trigger = { tag = SWI is_subject_of = ENG is_regpuppet = yes gvt_D = yes } localization_key = SWI_ENG_puppet_ins_D }
+text = { trigger = { tag = SWI is_subject_of = FRA is_regpuppet = yes gvt_F = yes } localization_key = SWI_FRA_puppet_ins_F }
+text = { trigger = { tag = SWI is_subject_of = FRA is_regpuppet = yes gvt_D = yes } localization_key = SWI_FRA_puppet_ins_D }
+text = { trigger = { tag = SWI is_SOV_ssr = yes is_regpuppet = yes } localization_key = SWI_SOV_puppet_ins_C }
+text = { trigger = { tag = SWI is_subject = yes gvt_F = yes } localization_key = SWI_subject_ins_F }
+text = { trigger = { tag = SWI is_subject = yes gvt_D = yes } localization_key = SWI_subject_ins_D }
+text = { trigger = { tag = SWI gvt_F = yes } localization_key = SWI_ins_F }
+text = { trigger = { tag = SWI gvt_C = yes } localization_key = SWI_ins_C }
+text = { trigger = { tag = SWI } localization_key = SWI_ins }
+
+text = { trigger = { gvt_F = yes OR = { tag = SPR AND = { tag = SPA gvt_N = yes } tag = SPB tag = SPC tag = SPD } } localization_key = SPAIN_nat_ins }
+text = { trigger = { tag = SPR gvt_N = yes } localization_key = SPAIN_emp_ins }
+text = { trigger = { gvt_C = yes OR = { tag = SPR tag = SPA tag = SPB tag = SPC tag = SPD } } localization_key = SPAIN_rep_ins }
+text = { trigger = { tag = SPB gvt_N = yes } localization_key = SPAIN_car_ins }
+text = { trigger = { gvt_N = yes OR = { tag = SPC tag = SPD } } localization_key = SPAIN_ana_ins }
+text = { trigger = { tag = SPR is_subject = yes } localization_key = SPR_subject_ins }
+text = { trigger = { tag = SPR } localization_key = SPAIN_ins }
+
+text = { trigger = { tag = POR is_subject = yes } localization_key = POR_subject_ins }
+text = { trigger = { tag = POR gvt_F = yes } localization_key = POR_ins_F }
+text = { trigger = { tag = POR gvt_C = yes } localization_key = POR_ins_C }
+text = { trigger = { tag = POR } localization_key = POR_ins }
+
+text = { trigger = { tag = EST is_GER_ubersat2 = yes } localization_key = EST_GER_ubersatellite_ins_F }
+text = { trigger = { tag = EST is_GER_untersat1 = yes } localization_key = EST_GER_untersatellite_ins_F }
+text = { trigger = { tag = EST is_GER_rp = yes } localization_key = EST_GER_protectorate_ins_F }
+text = { trigger = { tag = EST is_GER_rk = yes } localization_key = EST_GER_commissariat_ins_F }
+text = { trigger = { tag = EST is_SOV_ssr = yes is_dominion = yes } localization_key = EST_SOV_dominion_ins_C }
+text = { trigger = { tag = EST is_SOV_ssr = yes is_colony = yes } localization_key = EST_SOV_colony_ins_C }
+text = { trigger = { tag = EST is_SOV_ssr = yes is_regpuppet = yes } localization_key = EST_SOV_puppet_ins_C }
+text = { trigger = { tag = EST is_SOV_ssr = yes is_intpuppet = yes } localization_key = EST_SOV_intpuppet_ins_C }
+text = { trigger = { tag = EST is_subject = yes } localization_key = EST_subject_ins }
+text = { trigger = { tag = EST gvt_F = yes } localization_key = EST_ins_F }
+text = { trigger = { tag = EST gvt_D = yes } localization_key = EST_ins_D }
+text = { trigger = { tag = EST gvt_C = yes } localization_key = EST_ins_C }
+text = { trigger = { tag = EST } localization_key = EST_ins }
+
+text = { trigger = { tag = LAT is_GER_ubersat2 = yes } localization_key = LAT_GER_ubersatellite_ins_F }
+text = { trigger = { tag = LAT is_GER_untersat1 = yes } localization_key = LAT_GER_untersatellite_ins_F }
+text = { trigger = { tag = LAT is_GER_rp = yes } localization_key = LAT_GER_protectorate_ins_F }
+text = { trigger = { tag = LAT is_GER_rk = yes } localization_key = LAT_GER_commissariat_ins_F }
+text = { trigger = { tag = LAT is_SOV_ssr = yes is_dominion = yes } localization_key = LAT_SOV_dominion_ins_C }
+text = { trigger = { tag = LAT is_SOV_ssr = yes is_colony = yes } localization_key = LAT_SOV_colony_ins_C }
+text = { trigger = { tag = LAT is_SOV_ssr = yes is_regpuppet = yes } localization_key = LAT_SOV_puppet_ins_C }
+text = { trigger = { tag = LAT is_SOV_ssr = yes is_intpuppet = yes } localization_key = LAT_SOV_intpuppet_ins_C }
+text = { trigger = { tag = LAT is_subject = yes } localization_key = LAT_subject_ins }
+text = { trigger = { tag = LAT gvt_F = yes } localization_key = LAT_ins_F }
+text = { trigger = { tag = LAT gvt_D = yes } localization_key = LAT_ins_D }
+text = { trigger = { tag = LAT gvt_C = yes } localization_key = LAT_ins_C }
+text = { trigger = { tag = LAT } localization_key = LAT_ins }
+
+text = { trigger = { tag = LIT is_GER_ubersat2 = yes } localization_key = LIT_GER_ubersatellite_ins_F }
+text = { trigger = { tag = LIT is_GER_untersat1 = yes } localization_key = LIT_GER_untersatellite_ins_F }
+text = { trigger = { tag = LIT is_GER_rp = yes } localization_key = LIT_GER_protectorate_ins_F }
+text = { trigger = { tag = LIT is_GER_rk = yes } localization_key = LIT_GER_commissariat_ins_F }
+text = { trigger = { tag = LIT is_SOV_ssr = yes is_dominion = yes } localization_key = LIT_SOV_dominion_ins_C }
+text = { trigger = { tag = LIT is_SOV_ssr = yes is_colony = yes } localization_key = LIT_SOV_colony_ins_C }
+text = { trigger = { tag = LIT is_SOV_ssr = yes is_regpuppet = yes } localization_key = LIT_SOV_puppet_ins_C }
+text = { trigger = { tag = LIT is_SOV_ssr = yes is_intpuppet = yes } localization_key = LIT_SOV_intpuppet_ins_C }
+text = { trigger = { tag = LIT is_subject = yes } localization_key = LIT_subject_ins }
+text = { trigger = { tag = LIT gvt_F = yes } localization_key = LIT_ins_F }
+text = { trigger = { tag = LIT gvt_D = yes } localization_key = LIT_ins_D }
+text = { trigger = { tag = LIT gvt_C = yes } localization_key = LIT_ins_C }
+text = { trigger = { tag = LIT } localization_key = LIT_ins }
+
+text = { trigger = { tag = ROM is_subject = yes } localization_key = ROM_subject_ins }
+text = { trigger = { tag = ROM gvt_F = yes } localization_key = ROM_ins_F }
+text = { trigger = { tag = ROM gvt_N = yes } localization_key = ROM_ins_N }
+text = { trigger = { tag = ROM gvt_C = yes } localization_key = ROM_ins_C }
+text = { trigger = { tag = ROM } localization_key = ROM_ins }
+
+text = { trigger = { tag = BUL is_subject = yes } localization_key = BUL_subject_ins }
+text = { trigger = { tag = BUL gvt_F = yes } localization_key = BUL_ins_F }
+text = { trigger = { tag = BUL gvt_N = yes } localization_key = BUL_ins_N }
+text = { trigger = { tag = BUL gvt_C = yes } localization_key = BUL_ins_C }
+text = { trigger = { tag = BUL } localization_key = BUL_ins }
+
+text = { trigger = { tag = YUG is_subject = yes } localization_key = YUG_subject_ins }
+text = { trigger = { tag = YUG gvt_F = yes } localization_key = YUG_ins_F }
+text = { trigger = { tag = YUG gvt_D = yes } localization_key = YUG_ins_D }
+text = { trigger = { tag = YUG gvt_C = yes } localization_key = YUG_ins_C }
+text = { trigger = { tag = YUG } localization_key = YUG_ins }
+
+text = { trigger = { tag = ALB is_subject_of = ITA gvt_F = yes } localization_key = ALB_ITA_subject_ins_F }
+text = { trigger = { tag = ALB is_subject_of = ITA } localization_key = ALB_ITA_subject_ins }
+text = { trigger = { tag = ALB is_subject = yes } localization_key = ALB_subject_ins }
+text = { trigger = { tag = ALB gvt_F = yes } localization_key = ALB_ins_F }
+text = { trigger = { tag = ALB gvt_D = yes } localization_key = ALB_ins_D }
+text = { trigger = { tag = ALB gvt_C = yes } localization_key = ALB_ins_C }
+text = { trigger = { tag = ALB } localization_key = ALB_ins }
+
+text = { trigger = { tag = GRE is_subject = yes } localization_key = GRE_subject_ins }
+text = { trigger = { tag = GRE gvt_F = yes } localization_key = GRE_ins_F }
+text = { trigger = { tag = GRE gvt_D = yes } localization_key = GRE_ins_D }
+text = { trigger = { tag = GRE gvt_N = yes } localization_key = GRE_ins_N }
+text = { trigger = { tag = GRE gvt_C = yes } localization_key = GRE_ins_C }
+text = { trigger = { tag = GRE } localization_key = GRE_ins }
+
+text = { trigger = { tag = TUR is_subject = yes } localization_key = TUR_subject_ins }
+text = { trigger = { tag = TUR gvt_F = yes } localization_key = TUR_ins_F }
+text = { trigger = { tag = TUR gvt_D = yes } localization_key = TUR_ins_D }
+text = { trigger = { tag = TUR gvt_C = yes } localization_key = TUR_ins_C }
+text = { trigger = { tag = TUR } localization_key = TUR_ins }
+
+text = { trigger = { tag = DEN is_subject = yes } localization_key = DEN_subject_ins }
+text = { trigger = { tag = DEN gvt_F = yes } localization_key = DEN_ins_F }
+text = { trigger = { tag = DEN gvt_N = yes } localization_key = DEN_ins_N }
+text = { trigger = { tag = DEN gvt_C = yes } localization_key = DEN_ins_C }
+text = { trigger = { tag = DEN } localization_key = DEN_ins }
+
+text = { trigger = { tag = SWE is_subject = yes } localization_key = SWE_subject_ins }
+text = { trigger = { tag = SWE gvt_F = yes } localization_key = SWE_ins_F }
+text = { trigger = { tag = SWE gvt_N = yes } localization_key = SWE_ins_N }
+text = { trigger = { tag = SWE gvt_C = yes } localization_key = SWE_ins_C }
+text = { trigger = { tag = SWE } localization_key = SWE_ins }
+
+text = { trigger = { tag = NOR is_GER_untersat1 = yes } localization_key = NOR_GER_untersatellite_ins_F }
+text = { trigger = { tag = NOR is_GER_rp = yes } localization_key = NOR_GER_protectorate_ins_F }
+text = { trigger = { tag = NOR is_GER_rk = yes } localization_key = NOR_GER_commissariat_ins_F }
+text = { trigger = { tag = NOR is_subject = yes } localization_key = NOR_subject_ins }
+text = { trigger = { tag = NOR gvt_F = yes } localization_key = NOR_ins_F }
+text = { trigger = { tag = NOR gvt_N = yes } localization_key = NOR_ins_N }
+text = { trigger = { tag = NOR gvt_C = yes } localization_key = NOR_ins_C }
+text = { trigger = { tag = NOR } localization_key = NOR_ins }
+
+text = { trigger = { tag = FIN is_SOV_ssr = yes is_dominion = yes } localization_key = FIN_SOV_dominion_ins_C }
+text = { trigger = { tag = FIN is_SOV_ssr = yes is_colony = yes } localization_key = FIN_SOV_colony_ins_C }
+text = { trigger = { tag = FIN is_SOV_ssr = yes is_regpuppet = yes } localization_key = FIN_SOV_puppet_ins_C }
+text = { trigger = { tag = FIN is_SOV_ssr = yes is_intpuppet = yes } localization_key = FIN_SOV_intpuppet_ins_C }
+text = { trigger = { tag = FIN is_subject = yes } localization_key = FIN_subject_ins }
+text = { trigger = { tag = FIN gvt_F = yes } localization_key = FIN_ins_F }
+text = { trigger = { tag = FIN gvt_D = yes } localization_key = FIN_ins_D }
+text = { trigger = { tag = FIN gvt_C = yes } localization_key = FIN_ins_C }
+text = { trigger = { tag = FIN } localization_key = FIN_ins }
+
+text = { trigger = { tag = IRE is_subject = yes } localization_key = IRE_subject_ins }
+text = { trigger = { tag = IRE gvt_F = yes } localization_key = IRE_ins_F }
+text = { trigger = { tag = IRE gvt_N = yes } localization_key = IRE_ins_N }
+text = { trigger = { tag = IRE gvt_C = yes } localization_key = IRE_ins_C }
+text = { trigger = { tag = IRE } localization_key = IRE_ins }
+
+text = { trigger = { tag = AFG gvt_F = yes } localization_key = AFG_ins_F }
+text = { trigger = { tag = AFG gvt_C = yes } localization_key = AFG_ins_C }
+text = { trigger = { tag = AFG } localization_key = AFG_ins }
+
+text = { trigger = { tag = ARG is_subject = yes } localization_key = ARG_subject_ins }
+text = { trigger = { tag = ARG gvt_F = yes } localization_key = ARG_ins_F }
+text = { trigger = { tag = ARG gvt_D = yes } localization_key = ARG_ins_D }
+text = { trigger = { tag = ARG gvt_C = yes } localization_key = ARG_ins_C }
+text = { trigger = { tag = ARG } localization_key = ARG_ins }
+
+text = { trigger = { tag = BOL is_subject = yes } localization_key = BOL_subject_ins }
+text = { trigger = { tag = BOL gvt_F = yes } localization_key = BOL_ins_F }
+text = { trigger = { tag = BOL gvt_D = yes } localization_key = BOL_ins_D }
+text = { trigger = { tag = BOL gvt_C = yes } localization_key = BOL_ins_C }
+text = { trigger = { tag = BOL } localization_key = BOL_ins }
+
+text = { trigger = { tag = BRA is_subject = yes } localization_key = BRA_subject_ins }
+text = { trigger = { tag = BRA gvt_F = yes } localization_key = BRA_ins_F }
+text = { trigger = { tag = BRA gvt_D = yes } localization_key = BRA_ins_D }
+text = { trigger = { tag = BRA gvt_C = yes } localization_key = BRA_ins_C }
+text = { trigger = { tag = BRA } localization_key = BRA_ins }
+
+text = { trigger = { tag = CAN is_subject_of = ENG is_dominion = yes has_cosmetic_tag = CAN_UK } localization_key = CAN_ENG_dominion_ins }
+text = { trigger = { tag = CAN is_subject_of = ENG is_colony = yes has_cosmetic_tag = CAN_UK } localization_key = CAN_ENG_colony_ins }
+text = { trigger = { tag = CAN is_subject_of = ENG is_regpuppet = yes has_cosmetic_tag = CAN_UK } localization_key = CAN_ENG_puppet_ins }
+text = { trigger = { tag = CAN is_subject_of = ENG is_intpuppet = yes has_cosmetic_tag = CAN_UK } localization_key = CAN_ENG_intpuppet_ins }
+text = { trigger = { tag = CAN gvt_F = yes } localization_key = CAN_ins_F }
+text = { trigger = { tag = CAN gvt_N = yes } localization_key = CAN_ins_N }
+text = { trigger = { tag = CAN gvt_C = yes } localization_key = CAN_ins_C }
+text = { trigger = { tag = CAN } localization_key = CAN_ins }
+
+text = { trigger = { tag = CHI is_subject_of = GER is_protectorate = yes } localization_key = CHI_GER_protectorate_ins }
+text = { trigger = { tag = CHI is_subject_of = JAP OR = { is_regpuppet = yes is_protectorate = yes has_autonomy_state = autonomy_wtt_imperial_protectorate } } localization_key = CHI_JAP_puppet_ins }
+text = { trigger = { tag = CHI is_subject_of = JAP OR = { is_intpuppet = yes is_commissariat = yes } } localization_key = CHI_JAP_intpuppet_ins }
+text = { trigger = { tag = CHI is_subject_of = JAP has_autonomy_state = autonomy_wtt_imperial_associate } localization_key = CHI_JAP_impassociate_ins_F }
+text = { trigger = { tag = CHI is_dominion = yes } localization_key = CHI_dominion_ins }
+text = { trigger = { tag = CHI is_colony = yes } localization_key = CHI_colony_ins }
+text = { trigger = { tag = CHI is_regpuppet = yes } localization_key = CHI_puppet_ins }
+text = { trigger = { tag = CHI is_intpuppet = yes } localization_key = CHI_intpuppet_ins }
+text = { trigger = { tag = CHI is_protectorate = yes } localization_key = CHI_protectorate_ins }
+text = { trigger = { tag = CHI is_commissariat = yes } localization_key = CHI_commissariat_ins }
+text = { trigger = { tag = CHI is_superstate = yes } localization_key = CHI_superstate_ins }
+text = { trigger = { tag = CHI gvt_F = yes } localization_key = CHI_ins_F }
+text = { trigger = { tag = CHI gvt_D = yes } localization_key = CHI_ins_D }
+text = { trigger = { tag = CHI gvt_C = yes } localization_key = CHI_ins_C }
+text = { trigger = { tag = CHI } localization_key = CHI_ins }
+
+text = { trigger = { tag = PRC gvt_F = yes } localization_key = PRC_ins_F }
+text = { trigger = { tag = PRC gvt_D = yes } localization_key = PRC_ins_D }
+text = { trigger = { tag = PRC gvt_N = yes } localization_key = PRC_ins_N }
+text = { trigger = { tag = PRC } localization_key = PRC_ins }
+
+text = { trigger = { tag = CHL gvt_F = yes } localization_key = CHL_ins_F }
+text = { trigger = { tag = CHL gvt_C = yes } localization_key = CHL_ins_C }
+text = { trigger = { tag = CHL } localization_key = CHL }
+
+text = { trigger = { tag = COL gvt_F = yes } localization_key = COL_ins_F }
+text = { trigger = { tag = COL gvt_D = yes } localization_key = COL_ins }
+text = { trigger = { tag = COL gvt_N = yes } localization_key = COL_ins_N }
+text = { trigger = { tag = COL gvt_C = yes } localization_key = COL_ins_C }
+text = { trigger = { tag = COL } localization_key = COL_ins }
+
+text = { trigger = { tag = COS gvt_F = yes } localization_key = COS_ins_F }
+text = { trigger = { tag = COS gvt_N = yes } localization_key = COS_ins_N }
+text = { trigger = { tag = COS gvt_C = yes } localization_key = COS_ins_C }
+text = { trigger = { tag = COS } localization_key = COS_ins }
+
+text = { trigger = { tag = ECU gvt_F = yes } localization_key = ECU_ins_F }
+text = { trigger = { tag = ECU gvt_D = yes } localization_key = ECU_ins }
+text = { trigger = { tag = ECU gvt_N = yes } localization_key = ECU_ins_N }
+text = { trigger = { tag = ECU gvt_C = yes } localization_key = ECU_ins_C }
+text = { trigger = { tag = ECU } localization_key = ECU_ins }
+
+text = { trigger = { tag = ELS gvt_N = yes } localization_key = ELS_ins_N }
+text = { trigger = { tag = ELS gvt_C = yes } localization_key = ELS_ins_C }
+text = { trigger = { tag = ELS } localization_key = ELS_ins }
+
+text = { trigger = { tag = GUA gvt_F = yes } localization_key = GUA_ins_F }
+text = { trigger = { tag = GUA gvt_C = yes } localization_key = GUA_ins_C }
+text = { trigger = { tag = GUA } localization_key = GUA_ins }
+
+text = { trigger = { tag = HON gvt_F = yes } localization_key = HON_ins_F }
+text = { trigger = { tag = HON gvt_N = yes } localization_key = HON_ins_N }
+text = { trigger = { tag = HON gvt_C = yes } localization_key = HON_ins_C }
+text = { trigger = { tag = HON } localization_key = HON_ins }
+
+text = { trigger = { tag = IRQ is_subject = yes } localization_key = IRQ_subject_ins }
+text = { trigger = { tag = IRQ gvt_F = yes } localization_key = IRQ_ins_F }
+text = { trigger = { tag = IRQ gvt_N = yes } localization_key = IRQ_ins_N }
+text = { trigger = { tag = IRQ gvt_C = yes } localization_key = IRQ_ins_C }
+text = { trigger = { tag = IRQ } localization_key = IRQ_ins }
+
+text = { trigger = { tag = JAP is_subject = yes } localization_key = JAP_subject_ins }
+text = { trigger = { tag = JAP gvt_D = yes } localization_key = JAP_ins_D }
+text = { trigger = { tag = JAP gvt_N = yes } localization_key = JAP_ins_N }
+text = { trigger = { tag = JAP gvt_C = yes } localization_key = JAP_ins_C }
+text = { trigger = { tag = JAP } localization_key = JAP_ins }
+
+text = { trigger = { tag = MEX is_subject_of = ENG is_dominion = yes } localization_key = ENG_MEX_dominion_ins }
+text = { trigger = { tag = MEX gvt_FN = yes OR = { is_subject_of = SPR is_subject_of = SPA } } localization_key = MEX_SPAIN_subject_ins_FN }
+text = { trigger = { tag = MEX gvt_F = yes } localization_key = MEX_ins_F }
+text = { trigger = { tag = MEX gvt_D = yes } localization_key = MEX_ins_D }
+text = { trigger = { tag = MEX gvt_C = yes } localization_key = MEX_ins_C }
+text = { trigger = { tag = MEX } localization_key = MEX_ins }
+
+text = { trigger = { tag = MON gvt_F = yes } localization_key = MON_ins_F }
+text = { trigger = { tag = MON gvt_D = yes } localization_key = MON_ins_D }
+text = { trigger = { tag = MON gvt_N = yes } localization_key = MON_ins_N }
+text = { trigger = { tag = MON } localization_key = MON_ins }
+
+text = { trigger = { tag = NEP gvt_F = yes } localization_key = NEP_ins_F }
+text = { trigger = { tag = NEP gvt_D = yes } localization_key = NEP_ins_D }
+text = { trigger = { tag = NEP gvt_C = yes } localization_key = NEP_ins_C }
+text = { trigger = { tag = NEP } localization_key = NEP_ins }
+
+text = { trigger = { tag = NIC gvt_F = yes } localization_key = NIC_ins_F }
+text = { trigger = { tag = NIC gvt_D = yes } localization_key = NIC_ins_D }
+text = { trigger = { tag = NIC gvt_C = yes } localization_key = NIC_ins_C }
+text = { trigger = { tag = NIC } localization_key = NIC_ins }
+
+text = { trigger = { tag = PAN gvt_F = yes } localization_key = PAN_ins_F }
+text = { trigger = { tag = PAN gvt_D = yes } localization_key = PAN_ins }
+text = { trigger = { tag = PAN gvt_N = yes } localization_key = PAN_ins_N }
+text = { trigger = { tag = PAN gvt_C = yes } localization_key = PAN_ins_C }
+text = { trigger = { tag = PAN } localization_key = PAN_ins }
+
+text = { trigger = { tag = PAR gvt_F = yes } localization_key = PAR_ins_F }
+text = { trigger = { tag = PAR gvt_D = yes } localization_key = PAR_ins_D }
+text = { trigger = { tag = PAR } localization_key = PAR_ins }
+
+text = { trigger = { tag = PER gvt_F = yes } localization_key = PER_ins_F }
+text = { trigger = { tag = PER gvt_D = yes } localization_key = PER_ins_D }
+text = { trigger = { tag = PER gvt_C = yes } localization_key = PER_ins_C }
+text = { trigger = { tag = PER } localization_key = PER_ins }
+
+text = { trigger = { tag = PHI gvt_F = yes } localization_key = PHI_ins_F }
+text = { trigger = { tag = PHI gvt_N = yes } localization_key = PHI_ins_N }
+text = { trigger = { tag = PHI gvt_C = yes } localization_key = PHI_ins_C }
+text = { trigger = { tag = PHI } localization_key = PHI_ins }
+
+text = { trigger = { tag = PRU gvt_F = yes } localization_key = PRU }
+text = { trigger = { tag = PRU gvt_D = yes } localization_key = PRU_ins_D }
+text = { trigger = { tag = PRU gvt_N = yes } localization_key = PRU_ins_N }
+text = { trigger = { tag = PRU gvt_C = yes } localization_key = PRU_ins_C }
+text = { trigger = { tag = PRU } localization_key = PRU }
+
+text = { trigger = { tag = SAF gvt_F = yes } localization_key = SAF_ins_F }
+text = { trigger = { tag = SAF gvt_N = yes } localization_key = SAF_ins_N }
+text = { trigger = { tag = SAF gvt_C = yes } localization_key = SAF_ins_C }
+text = { trigger = { tag = SAF } localization_key = SAF_ins }
+
+text = { trigger = { tag = SAU is_subject = yes } localization_key = SAU_subject_ins }
+text = { trigger = { tag = SAU gvt_F = yes } localization_key = SAU_ins_F }
+text = { trigger = { tag = SAU gvt_D = yes } localization_key = SAU_ins_D }
+text = { trigger = { tag = SAU gvt_N = yes } localization_key = SAU_ins_N }
+text = { trigger = { tag = SAU gvt_C = yes } localization_key = SAU_ins_C }
+text = { trigger = { tag = SAU } localization_key = SAU_ins }
+
+text = { trigger = { tag = SIA gvt_F = yes } localization_key = SIA_ins_F }
+text = { trigger = { tag = SIA gvt_D = yes } localization_key = SIA_ins_D }
+text = { trigger = { tag = SIA gvt_C = yes } localization_key = SIA_ins_C }
+text = { trigger = { tag = SIA } localization_key = SIA_ins }
+
+text = { trigger = { tag = SIK is_SOV_ssr = yes } localization_key = SIK_SOV_subject_ins_C }
+text = { trigger = { tag = SIK gvt_F = yes } localization_key = SIK_ins_F }
+text = { trigger = { tag = SIK gvt_D = yes } localization_key = SIK_ins_D }
+text = { trigger = { tag = SIK } localization_key = SIK_ins }
+
+text = { trigger = { tag = TAN gvt_F = yes } localization_key = TAN_ins_F }
+text = { trigger = { tag = TAN gvt_D = yes } localization_key = TAN_ins_D }
+text = { trigger = { tag = TAN gvt_N = yes } localization_key = TAN_ins_N }
+text = { trigger = { tag = TAN } localization_key = TAN_ins }
+
+text = { trigger = { tag = TIB gvt_F = yes } localization_key = TIB_ins_F }
+text = { trigger = { tag = TIB gvt_D = yes } localization_key = TIB_ins_D }
+text = { trigger = { tag = TIB gvt_C = yes } localization_key = TIB_ins_C }
+text = { trigger = { tag = TIB } localization_key = TIB_ins }
+
+text = { trigger = { tag = VEN gvt_F = yes } localization_key = VEN_ins }
+text = { trigger = { tag = VEN gvt_D = yes } localization_key = VEN_ins_D }
+text = { trigger = { tag = VEN gvt_N = yes } localization_key = VEN_ins_N }
+text = { trigger = { tag = VEN gvt_C = yes } localization_key = VEN_ins_C }
+text = { trigger = { tag = VEN } localization_key = VEN_ins }
+
+text = { trigger = { tag = YUN gvt_F = yes } localization_key = YUN_ins_F }
+text = { trigger = { tag = YUN gvt_D = yes } localization_key = YUN_ins_D }
+text = { trigger = { tag = YUN gvt_C = yes } localization_key = YUN_ins_C }
+text = { trigger = { tag = YUN } localization_key = YUN_ins }
+
+text = { trigger = { tag = AST is_dominion = yes } localization_key = AST_dominion_ins }
+text = { trigger = { tag = AST is_subject = yes } localization_key = AST_subject_ins }
+text = { trigger = { tag = AST gvt_F = yes } localization_key = AST_ins_F }
+text = { trigger = { tag = AST gvt_N = yes } localization_key = AST_ins_N }
+text = { trigger = { tag = AST gvt_C = yes } localization_key = AST_ins_C }
+text = { trigger = { tag = AST } localization_key = AST_ins }
+
+text = { trigger = { tag = NZL gvt_F = yes } localization_key = NZL_ins_F }
+text = { trigger = { tag = NZL gvt_N = yes } localization_key = NZL_ins_N }
+text = { trigger = { tag = NZL gvt_C = yes } localization_key = NZL_ins_C }
+text = { trigger = { tag = NZL } localization_key = NZL_ins }
+
+text = { trigger = { tag = URG gvt_F = yes } localization_key = URG_ins_F }
+text = { trigger = { tag = URG gvt_N = yes } localization_key = URG_ins_N }
+text = { trigger = { tag = URG gvt_C = yes } localization_key = URG_ins_C }
+text = { trigger = { tag = URG } localization_key = URG_ins }
+
+text = { trigger = { tag = CUB is_subject_of = ETH gvt_N = yes } localization_key = CUB_ETH_subject_ins_N }
+text = { trigger = { tag = CUB gvt_F = yes } localization_key = CUB_ins_F }
+text = { trigger = { tag = CUB gvt_N = yes } localization_key = CUB_ins_N }
+text = { trigger = { tag = CUB gvt_C = yes } localization_key = CUB_ins_C }
+text = { trigger = { tag = CUB } localization_key = CUB_ins }
+
+text = { trigger = { tag = DOM gvt_F = yes } localization_key = DOM_ins_F }
+text = { trigger = { tag = DOM gvt_D = yes } localization_key = DOM_ins_D }
+text = { trigger = { tag = DOM gvt_N = yes } localization_key = DOM_ins_N }
+text = { trigger = { tag = DOM gvt_C = yes } localization_key = DOM_ins_C }
+text = { trigger = { tag = DOM } localization_key = DOM_ins }
+
+text = { trigger = { tag = HAI gvt_F = yes } localization_key = HAI_ins_F }
+text = { trigger = { tag = HAI gvt_N = yes } localization_key = HAI_ins_N }
+text = { trigger = { tag = HAI gvt_C = yes } localization_key = HAI_ins_C }
+text = { trigger = { tag = HAI } localization_key = HAI }
+
+text = { trigger = { tag = OMA gvt_F = yes } localization_key = OMA_ins_F }
+text = { trigger = { tag = OMA gvt_D = yes } localization_key = OMA_ins_D }
+text = { trigger = { tag = OMA gvt_C = yes } localization_key = OMA_ins_C }
+text = { trigger = { tag = OMA } localization_key = OMA_ins }
+
+text = { trigger = { tag = YEM gvt_F = yes } localization_key = YEM_ins_F }
+text = { trigger = { tag = YEM gvt_D = yes } localization_key = YEM_ins_D }
+text = { trigger = { tag = YEM gvt_C = yes } localization_key = YEM_ins_C }
+text = { trigger = { tag = YEM } localization_key = YEM_ins }
+
+text = { trigger = { tag = ETH is_ITA_ubersat2 = yes } localization_key = ETH_ITA_domsat_ins_F }
+text = { trigger = { tag = ETH is_ITA_untersat1 = yes } localization_key = ETH_ITA_colony_ins_F }
+text = { trigger = { tag = ETH is_ITA_rp = yes } localization_key = ETH_ITA_puppro_ins_F }
+text = { trigger = { tag = ETH is_ITA_rk = yes } localization_key = ETH_ITA_intcom_ins_F }
+text = { trigger = { tag = ETH gvt_F = yes } localization_key = ETH_ins_F }
+text = { trigger = { tag = ETH gvt_D = yes } localization_key = ETH_ins_D }
+text = { trigger = { tag = ETH gvt_C = yes } localization_key = ETH_ins_C }
+text = { trigger = { tag = ETH } localization_key = ETH_ins }
+
+text = { trigger = { tag = SLO gvt_N = yes } localization_key = SLO_ins_N }
+text = { trigger = { tag = SLO gvt_C = yes } localization_key = SLO_ins_C }
+text = { trigger = { tag = SLO } localization_key = SLO_ins }
+
+text = { trigger = { tag = BHU gvt_F = yes } localization_key = BHU_ins_F }
+text = { trigger = { tag = BHU gvt_D = yes } localization_key = BHU_ins_D }
+text = { trigger = { tag = BHU gvt_C = yes } localization_key = BHU_ins_C }
+text = { trigger = { tag = BHU } localization_key = BHU_ins }
+
+text = { trigger = { tag = LIB gvt_F = yes } localization_key = LIB_ins_F }
+text = { trigger = { tag = LIB gvt_N = yes } localization_key = LIB_ins_N }
+text = { trigger = { tag = LIB gvt_C = yes } localization_key = LIB_ins_C }
+text = { trigger = { tag = LIB } localization_key = LIB_ins }
+
+text = { trigger = { tag = RAJ is_subject_of = ENG is_dominion = yes has_cosmetic_tag = RAJ_UK } localization_key = RAJ_UK_dominion_ins }
+text = { trigger = { tag = RAJ OR = { is_subject_of = ENG gvt_D = yes gvt_N = yes } has_cosmetic_tag = RAJ_UK } localization_key = RAJ_UK_ins_DN }
+text = { trigger = { tag = RAJ is_subject = yes } localization_key = RAJ_subject_ins }
+text = { trigger = { tag = RAJ gvt_F = yes } localization_key = RAJ_ins_F }
+text = { trigger = { tag = RAJ gvt_C = yes } localization_key = RAJ_ins_C }
+text = { trigger = { tag = RAJ } localization_key = RAJ_ins }
+
+text = { trigger = { tag = CRO is_subject_of = YUG } localization_key = CRO_YUG_subject_ins }
+text = { trigger = { tag = CRO gvt_F = yes } localization_key = CRO_ins_F }
+text = { trigger = { tag = CRO gvt_D = yes } localization_key = CRO_ins_D }
+text = { trigger = { tag = CRO gvt_N = yes } localization_key = CRO_ins_N }
+text = { trigger = { tag = CRO gvt_C = yes } localization_key = CRO_ins_C }
+text = { trigger = { tag = CRO } localization_key = CRO_ins }
+
+text = { trigger = { tag = GXC gvt_F = yes } localization_key = GXC_ins_F }
+text = { trigger = { tag = GXC gvt_D = yes } localization_key = GXC_ins_D }
+text = { trigger = { tag = GXC gvt_C = yes } localization_key = GXC_ins_C }
+text = { trigger = { tag = GXC } localization_key = GXC_ins }
+
+text = { trigger = { tag = SHX gvt_F = yes } localization_key = SHX_ins_F }
+text = { trigger = { tag = SHX gvt_D = yes } localization_key = SHX_ins_D }
+text = { trigger = { tag = SHX gvt_C = yes } localization_key = SHX_ins_C }
+text = { trigger = { tag = SHX } localization_key = SHX_ins }
+
+text = { trigger = { tag = XSM gvt_F = yes } localization_key = XSM_ins_F }
+text = { trigger = { tag = XSM gvt_D = yes } localization_key = XSM_ins_D }
+text = { trigger = { tag = XSM gvt_C = yes } localization_key = XSM_ins_C }
+text = { trigger = { tag = XSM } localization_key = XSM_ins }
+
+text = { trigger = { tag = MEN gvt_D = yes } localization_key = MEN_ins_D }
+text = { trigger = { tag = MEN gvt_C = yes } localization_key = MEN_ins_C }
+text = { trigger = { tag = MEN } localization_key = MEN_ins }
+
+text = { trigger = { tag = KOR gvt_F = yes } localization_key = KOR_ins_F }
+text = { trigger = { tag = KOR gvt_N = yes } localization_key = KOR_ins_N }
+text = { trigger = { tag = KOR gvt_C = yes } localization_key = KOR_ins_C }
+text = { trigger = { tag = KOR } localization_key = KOR_ins }
+
+text = { trigger = { tag = SER gvt_F = yes } localization_key = SER_ins_F }
+text = { trigger = { tag = SER gvt_C = yes } localization_key = SER_ins_C }
+text = { trigger = { tag = SER } localization_key = SER_ins }
+
+text = { trigger = { tag = ICE gvt_F = yes } localization_key = ICE_ins_F }
+text = { trigger = { tag = ICE gvt_N = yes } localization_key = ICE_ins_N }
+text = { trigger = { tag = ICE gvt_C = yes } localization_key = ICE_ins_C }
+text = { trigger = { tag = ICE } localization_key = ICE_ins }
+
+text = { trigger = { tag = SYR gvt_F = yes } localization_key = SYR_ins_F }
+text = { trigger = { tag = SYR gvt_D = yes } localization_key = SYR_ins_D }
+text = { trigger = { tag = SYR gvt_N = yes } localization_key = SYR_ins_N }
+text = { trigger = { tag = SYR gvt_C = yes } localization_key = SYR_ins_C }
+text = { trigger = { tag = SYR } localization_key = SYR_ins }
+
+text = { trigger = { tag = LEB gvt_F = yes } localization_key = LEB_ins_F }
+text = { trigger = { tag = LEB gvt_C = yes } localization_key = LEB_ins_C }
+text = { trigger = { tag = LEB } localization_key = LEB_ins }
+
+text = { trigger = { tag = JOR gvt_F = yes } localization_key = JOR_ins_F }
+text = { trigger = { tag = JOR gvt_N = yes } localization_key = JOR_ins_N }
+text = { trigger = { tag = JOR gvt_C = yes } localization_key = JOR_ins_C }
+text = { trigger = { tag = JOR } localization_key = JOR_ins }
+
+text = { trigger = { tag = EGY gvt_F = yes } localization_key = EGY_ins_F }
+text = { trigger = { tag = EGY gvt_N = yes } localization_key = EGY_ins_N }
+text = { trigger = { tag = EGY gvt_C = yes } localization_key = EGY_ins_C }
+text = { trigger = { tag = EGY } localization_key = EGY_ins }
+
+text = { trigger = { tag = LBA is_subject_of = GER OR = { is_dominion_or_satellite = yes AND = { is_regpuppet = yes gvt_F = no } } } localization_key = LBA_GER_domsat_ins }
+text = { trigger = { tag = LBA is_subject_of = GER is_colony = yes } localization_key = LBA_GER_colony_ins }
+text = { trigger = { tag = LBA is_subject_of = GER is_puppet_or_protectorate = yes } localization_key = LBA_GER_puppro_ins }
+text = { trigger = { tag = LBA is_subject_of = GER is_intpuppet_or_commissariat = yes } localization_key = LBA_GER_intcom_ins }
+text = { trigger = { tag = LBA is_ITA_ubersat2 = yes } localization_key = LBA_ITA_domsat_ins_F }
+text = { trigger = { tag = LBA is_ITA_untersat1 = yes } localization_key = LBA_ITA_colony_ins_F }
+text = { trigger = { tag = LBA is_ITA_rp = yes } localization_key = LBA_ITA_puppro_ins_F }
+text = { trigger = { tag = LBA is_ITA_rk = yes } localization_key = LBA_ITA_intcom_ins_F }
+text = { trigger = { tag = LBA is_subject = yes } localization_key = LBA_subject_ins }
+text = { trigger = { tag = LBA gvt_F = yes } localization_key = LBA_ins_F }
+text = { trigger = { tag = LBA gvt_D = yes } localization_key = LBA_ins_D }
+text = { trigger = { tag = LBA gvt_N = yes } localization_key = LBA_ins_N }
+text = { trigger = { tag = LBA gvt_C = yes } localization_key = LBA_ins_C }
+text = { trigger = { tag = LBA } localization_key = LBA_ins }
+
+text = { trigger = { tag = WGR gvt_F = yes } localization_key = WGR_ins_F }
+text = { trigger = { tag = WGR gvt_N = yes } localization_key = WGR_ins_N }
+text = { trigger = { tag = WGR gvt_C = yes } localization_key = WGR_ins_C }
+text = { trigger = { tag = WGR } localization_key = WGR_ins }
+
+text = { trigger = { tag = DDR gvt_F = yes } localization_key = DDR_ins_F }
+text = { trigger = { tag = DDR gvt_D = yes } localization_key = DDR_ins_D }
+text = { trigger = { tag = DDR gvt_N = yes } localization_key = DDR_ins_N }
+text = { trigger = { tag = DDR } localization_key = DDR_ins }
+
+text = { trigger = { tag = PAL gvt_F = yes } localization_key = PAL_ins_F }
+text = { trigger = { tag = PAL gvt_N = yes } localization_key = PAL_ins_N }
+text = { trigger = { tag = PAL gvt_C = yes } localization_key = PAL_ins_C }
+text = { trigger = { tag = PAL } localization_key = PAL_ins }
+
+text = { trigger = { tag = ISR gvt_F = yes } localization_key = ISR_ins_F }
+text = { trigger = { tag = ISR gvt_N = yes } localization_key = ISR_ins_N }
+text = { trigger = { tag = ISR gvt_C = yes } localization_key = ISR_ins_C }
+text = { trigger = { tag = ISR } localization_key = ISR_ins }
+
+text = { trigger = { tag = VIN gvt_F = yes } localization_key = VIN_ins_F }
+text = { trigger = { tag = VIN gvt_DN = yes } localization_key = VIN_dn_ins }
+text = { trigger = { tag = VIN gvt_C = yes } localization_key = VIN_ins_C }
+text = { trigger = { tag = VIN } localization_key = VIN_ins }
+
+text = { trigger = { tag = CAM gvt_F = yes } localization_key = CAM_ins_F }
+text = { trigger = { tag = CAM gvt_DN = yes } localization_key = CAM_dn_ins }
+text = { trigger = { tag = CAM gvt_C = yes } localization_key = CAM_ins_C }
+text = { trigger = { tag = CAM } localization_key = CAM_ins }
+
+text = { trigger = { tag = LAO gvt_F = yes } localization_key = LAO_ins_F }
+text = { trigger = { tag = LAO gvt_D = yes } localization_key = LAO_ins_D }
+text = { trigger = { tag = LAO gvt_N = yes } localization_key = LAO_ins_N }
+text = { trigger = { tag = LAO gvt_C = yes } localization_key = LAO_ins_C }
+text = { trigger = { tag = LAO } localization_key = LAO_ins }
+
+text = { trigger = { tag = INS is_subject_of = HOL gvt_D = yes } localization_key = INS_HOL_ins_D }
+text = { trigger = { tag = INS is_subject = yes } localization_key = INS_subject_ins }
+text = { trigger = { tag = INS gvt_F = yes } localization_key = INS_ins_F }
+text = { trigger = { tag = INS gvt_C = yes } localization_key = INS_ins_C }
+text = { trigger = { tag = INS } localization_key = INS_ins }
+
+text = { trigger = { tag = MAL OR = { is_subject_of = ENG gvt_D = yes } has_cosmetic_tag = MAL_UK } localization_key = MAL_UK_ins_D }
+text = { trigger = { tag = MAL is_subject = yes } localization_key = MAL_subject_ins }
+text = { trigger = { tag = MAL gvt_DN = yes } localization_key = MAL_dn_ins }
+text = { trigger = { tag = MAL gvt_C = yes } localization_key = MAL_ins_C }
+text = { trigger = { tag = MAL } localization_key = MAL_ins }
+
+text = { trigger = { tag = ETH is_subject_of = ITA is_satellite = yes gvt_F = yes } localization_key = MNT_ITA_satellite_ins_F }
+text = { trigger = { tag = ETH is_subject_of = ITA is_protectorate = yes gvt_F = yes } localization_key = MNT_ITA_protectorate_ins_F }
+text = { trigger = { tag = ETH is_subject_of = ITA is_commissariat = yes gvt_F = yes } localization_key = MNT_ITA_commissariat_ins_F }
+text = { trigger = { tag = MNT is_subject_of = ITA } localization_key = MNT_ITA_subject_ins }
+text = { trigger = { tag = MNT is_subject_of = YUG } localization_key = MNT_YUG_subject_ins }
+text = { trigger = { tag = MNT gvt_F = yes } localization_key = MNT_ins_F }
+text = { trigger = { tag = MNT gvt_D = yes } localization_key = MNT_ins_D }
+text = { trigger = { tag = MNT gvt_C = yes } localization_key = MNT_ins_C }
+text = { trigger = { tag = MNT } localization_key = MNT_ins }
+
+text = { trigger = { tag = UKR is_GER_ubersat1 = yes } localization_key = UKR_GER_ubersatellite_ins_F }
+text = { trigger = { tag = UKR is_GER_untersat2 = yes } localization_key = UKR_GER_untersatellite_ins_F }
+text = { trigger = { tag = UKR is_GER_rp = yes } localization_key = UKR_GER_protectorate_ins_F }
+text = { trigger = { tag = UKR is_GER_rk = yes } localization_key = UKR_GER_commissariat_ins_F }
+text = { trigger = { tag = UKR is_subject_of = GER } localization_key = UKR_GER_puppet_ins }
+text = { trigger = { tag = UKR is_SOV_ssr = yes is_dominion = yes } localization_key = UKR_SOV_dominion_ins_C }
+text = { trigger = { tag = UKR is_SOV_ssr = yes is_colony = yes } localization_key = UKR_SOV_colony_ins_C }
+text = { trigger = { tag = UKR is_SOV_ssr = yes is_regpuppet = yes } localization_key = UKR_SOV_puppet_ins_C }
+text = { trigger = { tag = UKR is_SOV_ssr = yes is_intpuppet = yes } localization_key = UKR_SOV_intpuppet_ins_C }
+text = { trigger = { tag = UKR gvt_D = yes } localization_key = UKR_ins_D }
+text = { trigger = { tag = UKR gvt_C = yes } localization_key = UKR_ins_C }
+text = { trigger = { tag = UKR } localization_key = UKR_ins }
+
+text = { trigger = { tag = BLR is_GER_ubersat1 = yes } localization_key = BLR_GER_ubersatellite_ins_F }
+text = { trigger = { tag = BLR is_GER_untersat2 = yes } localization_key = BLR_GER_untersatellite_ins_F }
+text = { trigger = { tag = BLR is_GER_rp = yes } localization_key = BLR_GER_protectorate_ins_F }
+text = { trigger = { tag = BLR is_GER_rk = yes } localization_key = BLR_GER_commissariat_ins_F }
+text = { trigger = { tag = BLR is_subject_of = GER } localization_key = BLR_GER_puppet_ins }
+text = { trigger = { tag = BLR is_SOV_ssr = yes is_dominion = yes } localization_key = BLR_SOV_dominion_ins_C }
+text = { trigger = { tag = BLR is_SOV_ssr = yes is_colony = yes } localization_key = BLR_SOV_colony_ins_C }
+text = { trigger = { tag = BLR is_SOV_ssr = yes is_regpuppet = yes } localization_key = BLR_SOV_puppet_ins_C }
+text = { trigger = { tag = BLR is_SOV_ssr = yes is_intpuppet = yes } localization_key = BLR_SOV_intpuppet_ins_C }
+text = { trigger = { tag = BLR gvt_F = yes } localization_key = BLR_ins_F }
+text = { trigger = { tag = BLR gvt_D = yes } localization_key = BLR_ins_D }
+text = { trigger = { tag = BLR gvt_C = yes } localization_key = BLR_ins_C }
+text = { trigger = { tag = BLR } localization_key = BLR_ins }
+
+text = { trigger = { tag = GEO is_subject_of = GER gvt_F = yes } localization_key = GEO_GER_subject_ins_F }
+text = { trigger = { tag = GEO gvt_F = yes } localization_key = GEO_ins_F }
+text = { trigger = { tag = GEO gvt_D = yes } localization_key = GEO_ins_D }
+text = { trigger = { tag = GEO gvt_N = yes } localization_key = GEO_ins_N }
+text = { trigger = { tag = GEO gvt_C = yes } localization_key = GEO_ins_C }
+text = { trigger = { tag = GEO } localization_key = GEO_ins }
+
+text = { trigger = { tag = ARM is_subject_of = ENG is_dominion = yes has_cosmetic_tag = ARM_UK } localization_key = ARM_UK_dominion_ins }
+text = { trigger = { tag = ARM is_subject_of = ENG is_colony = yes has_cosmetic_tag = ARM_UK } localization_key = ARM_UK_colony_ins }
+text = { trigger = { tag = ARM is_subject_of = ENG is_regpuppet = yes has_cosmetic_tag = ARM_UK } localization_key = ARM_UK_puppet_ins }
+text = { trigger = { tag = ARM is_subject_of = ENG is_intpuppet = yes has_cosmetic_tag = ARM_UK } localization_key = ARM_UK_intpuppet_ins }
+text = { trigger = { tag = ARM gvt_F = yes } localization_key = ARM_ins_F }
+text = { trigger = { tag = ARM gvt_D = yes } localization_key = ARM_ins_D }
+text = { trigger = { tag = ARM gvt_N = yes } localization_key = ARM_ins_N }
+text = { trigger = { tag = ARM gvt_C = yes } localization_key = ARM_ins_C }
+text = { trigger = { tag = ARM } localization_key = ARM_ins }
+
+text = { trigger = { tag = AZR gvt_F = yes } localization_key = AZR_ins_F }
+text = { trigger = { tag = AZR gvt_D = yes } localization_key = AZR_ins_D }
+text = { trigger = { tag = AZR gvt_N = yes } localization_key = AZR_ins_N }
+text = { trigger = { tag = AZR gvt_C = yes } localization_key = AZR_ins_C }
+text = { trigger = { tag = AZR } localization_key = AZR_ins }
+
+text = { trigger = { tag = KAZ gvt_F = yes } localization_key = KAZ_ins_F }
+text = { trigger = { tag = KAZ gvt_N = yes } localization_key = KAZ_ins_N }
+text = { trigger = { tag = KAZ gvt_C = yes } localization_key = KAZ_ins_C }
+text = { trigger = { tag = KAZ } localization_key = KAZ_ins }
+
+text = { trigger = { tag = ANG gvt_F = yes } localization_key = ANG_ins_F }
+text = { trigger = { tag = ANG gvt_D = yes } localization_key = ANG_ins_D }
+text = { trigger = { tag = ANG gvt_C = yes } localization_key = ANG_ins_C }
+text = { trigger = { tag = ANG } localization_key = ANG_ins }
+
+text = { trigger = { tag = MZB gvt_F = yes } localization_key = MZB_ins_F }
+text = { trigger = { tag = MZB gvt_D = yes } localization_key = MZB_ins_D }
+text = { trigger = { tag = MZB gvt_C = yes } localization_key = MZB_ins_C }
+text = { trigger = { tag = MZB } localization_key = MZB_ins }
+
+text = { trigger = { tag = COG is_subject = yes } localization_key = COG_subject_ins }
+text = { trigger = { tag = COG gvt_F = yes } localization_key = COG_ins_F }
+text = { trigger = { tag = COG gvt_D = yes } localization_key = COG_ins_D }
+text = { trigger = { tag = COG gvt_C = yes } localization_key = COG_ins_C }
+text = { trigger = { tag = COG } localization_key = COG_ins }
+
+text = { trigger = { tag = KEN is_subject_of = GER OR = { is_dominion_or_satellite = yes AND = { is_regpuppet = yes gvt_F = no } } } localization_key = KEN_GER_domsat_ins }
+text = { trigger = { tag = KEN is_subject_of = GER is_colony = yes } localization_key = KEN_GER_colony_ins }
+text = { trigger = { tag = KEN is_subject_of = GER is_puppet_or_protectorate = yes } localization_key = KEN_GER_puppro_ins }
+text = { trigger = { tag = KEN is_subject_of = GER is_intpuppet_or_commissariat = yes } localization_key = KEN_GER_intcom_ins }
+text = { trigger = { tag = KEN is_subject_of = ENG is_dominion = yes } localization_key = KEN_ENG_dominion_ins }
+text = { trigger = { tag = KEN is_subject_of = ENG is_colony = yes } localization_key = KEN_ENG_colony_ins }
+text = { trigger = { tag = KEN is_subject_of = ENG is_regpuppet = yes } localization_key = KEN_ENG_puppet_ins }
+text = { trigger = { tag = KEN is_subject_of = ENG is_intpuppet = yes } localization_key = KEN_ENG_intpuppet_ins }
+text = { trigger = { tag = KEN gvt_F = yes } localization_key = KEN_ins_F }
+text = { trigger = { tag = KEN gvt_D = yes } localization_key = KEN_ins_D }
+text = { trigger = { tag = KEN gvt_C = yes } localization_key = KEN_ins_C }
+text = { trigger = { tag = KEN } localization_key = KEN_ins }
+
+text = { trigger = { tag = ZIM is_subject_of = GER OR = { is_dominion_or_satellite = yes AND = { is_regpuppet = yes gvt_F = no } } } localization_key = ZIM_GER_domsat_ins }
+text = { trigger = { tag = ZIM is_subject_of = GER is_colony = yes } localization_key = ZIM_GER_colony_ins }
+text = { trigger = { tag = ZIM is_subject_of = GER is_puppet_or_protectorate = yes } localization_key = ZIM_GER_puppro_ins }
+text = { trigger = { tag = ZIM is_subject_of = GER is_intpuppet_or_commissariat = yes } localization_key = ZIM_GER_intcom_ins }
+text = { trigger = { tag = ZIM is_subject_of = ENG is_dominion = yes } localization_key = ZIM_ENG_dominion_ins }
+text = { trigger = { tag = ZIM is_subject_of = ENG is_colony = yes } localization_key = ZIM_ENG_colony_ins }
+text = { trigger = { tag = ZIM is_subject_of = ENG is_regpuppet = yes } localization_key = ZIM_ENG_puppet_ins }
+text = { trigger = { tag = ZIM is_subject_of = ENG is_intpuppet = yes } localization_key = ZIM_ENG_intpuppet_ins }
+text = { trigger = { tag = ZIM gvt_F = yes } localization_key = ZIM_ins_F }
+text = { trigger = { tag = ZIM gvt_D = yes } localization_key = ZIM_ins_D }
+text = { trigger = { tag = ZIM gvt_C = yes } localization_key = ZIM_ins_C }
+text = { trigger = { tag = ZIM } localization_key = ZIM_ins }
+
+text = { trigger = { tag = BOT is_subject_of = ENG is_dominion = yes } localization_key = BOT_ENG_dominion_ins }
+text = { trigger = { tag = BOT is_subject_of = ENG is_colony = yes } localization_key = BOT_ENG_colony_ins }
+text = { trigger = { tag = BOT is_subject_of = ENG is_regpuppet = yes } localization_key = BOT_ENG_puppet_ins }
+text = { trigger = { tag = BOT is_subject_of = ENG is_intpuppet = yes } localization_key = BOT_ENG_intpuppet_ins }
+text = { trigger = { tag = BOT gvt_F = yes } localization_key = BOT_ins_F }
+text = { trigger = { tag = BOT gvt_D = yes } localization_key = BOT_ins_D }
+text = { trigger = { tag = BOT gvt_C = yes } localization_key = BOT_ins_C }
+text = { trigger = { tag = BOT } localization_key = BOT_ins }
+
+text = { trigger = { tag = PAK gvt_F = yes } localization_key = PAK_ins_F }
+text = { trigger = { tag = PAK gvt_D = yes } localization_key = PAK_ins_D }
+text = { trigger = { tag = PAK gvt_C = yes } localization_key = PAK_ins_C }
+text = { trigger = { tag = PAK } localization_key = PAK_ins }
+
+text = { trigger = { tag = MAN is_subject_of = JAP OR = { is_dominion = yes is_satellite = yes has_autonomy_state = autonomy_wtt_imperial_associate } } localization_key = MAN_JAP_dominion_ins_F }
+text = { trigger = { tag = MAN is_subject_of = JAP is_colony = yes } localization_key = MAN_JAP_colony_ins_F }
+text = { trigger = { tag = MAN is_subject_of = JAP OR = { is_regpuppet = yes is_protectorate = yes } } localization_key = MAN_JAP_puppet_ins_F }
+text = { trigger = { tag = MAN is_subject_of = JAP OR = { is_intpuppet = yes is_commissariat = yes } } localization_key = MAN_JAP_intpuppet_ins_F }
+text = { trigger = { tag = MAN is_subject_of = JAP OR = { has_autonomy_state = autonomy_wtt_imperial_protectorate has_autonomy_state = autonomy_wtt_imperial_subject } } localization_key = MAN_JAP_imperial_ins_F }
+text = { trigger = { tag = MAN gvt_FN = yes } localization_key = MAN_ins_FN }
+text = { trigger = { tag = MAN gvt_D = yes } localization_key = MAN_ins_D }
+text = { trigger = { tag = MAN gvt_C = yes } localization_key = MAN_ins_C }
+text = { trigger = { tag = MAN } localization_key = MAN_ins }
+
+text = { trigger = { tag = BAH gvt_F = yes } localization_key = BAH_ins_F }
+text = { trigger = { tag = BAH gvt_D = yes } localization_key = BAH_ins_D }
+text = { trigger = { tag = BAH gvt_C = yes } localization_key = BAH_ins_C }
+text = { trigger = { tag = BAH } localization_key = BAH_ins }
+
+text = { trigger = { tag = BAN gvt_F = yes } localization_key = BAN_ins_F }
+text = { trigger = { tag = BAN gvt_N = yes } localization_key = BAN_ins_N }
+text = { trigger = { tag = BAN gvt_C = yes } localization_key = BAN_ins_C }
+text = { trigger = { tag = BAN } localization_key = BAN_ins }
+
+text = { trigger = { tag = BLZ gvt_F = yes } localization_key = BLZ_ins_F }
+text = { trigger = { tag = BLZ gvt_N = yes } localization_key = BLZ_ins_N }
+text = { trigger = { tag = BLZ gvt_C = yes } localization_key = BLZ_ins_C }
+text = { trigger = { tag = BLZ } localization_key = BLZ_ins }
+
+text = { trigger = { tag = BRM gvt_F = yes } localization_key = BRM_ins_F }
+text = { trigger = { tag = BRM gvt_N = yes } localization_key = BRM_ins_N }
+text = { trigger = { tag = BRM gvt_C = yes } localization_key = BRM_ins_C }
+text = { trigger = { tag = BRM } localization_key = BRM_ins }
+
+text = { trigger = { tag = CRC gvt_F = yes } localization_key = CRC_ins_F }
+text = { trigger = { tag = CRC gvt_N = yes } localization_key = CRC_ins_N }
+text = { trigger = { tag = CRC gvt_C = yes } localization_key = CRC_ins_C }
+text = { trigger = { tag = CRC } localization_key = CRC_ins }
+
+text = { trigger = { tag = GDL gvt_F = yes } localization_key = GDL_ins_F }
+text = { trigger = { tag = GDL gvt_D = yes } localization_key = GDL_ins_D }
+text = { trigger = { tag = GDL gvt_N = yes } localization_key = GDL_ins_N }
+text = { trigger = { tag = GDL gvt_C = yes } localization_key = GDL_ins_C }
+text = { trigger = { tag = GDL } localization_key = GDL_ins }
+
+text = { trigger = { tag = GYA gvt_F = yes } localization_key = GYA_ins_F }
+text = { trigger = { tag = GYA gvt_D = yes } localization_key = GYA_ins_D }
+text = { trigger = { tag = GYA gvt_C = yes } localization_key = GYA_ins_C }
+text = { trigger = { tag = GYA } localization_key = GYA_ins }
+
+text = { trigger = { tag = JAM gvt_F = yes } localization_key = JAM_ins_F }
+text = { trigger = { tag = JAM gvt_N = yes } localization_key = JAM_ins_N }
+text = { trigger = { tag = JAM gvt_C = yes } localization_key = JAM_ins_C }
+text = { trigger = { tag = JAM } localization_key = JAM_ins }
+
+text = { trigger = { tag = KYR gvt_F = yes } localization_key = KYR_ins_F }
+text = { trigger = { tag = KYR gvt_N = yes } localization_key = KYR_ins_N }
+text = { trigger = { tag = KYR gvt_C = yes } localization_key = KYR_ins_C }
+text = { trigger = { tag = KYR } localization_key = KYR_ins }
+
+text = { trigger = { tag = MAD gvt_F = yes } localization_key = MAD_ins_F }
+text = { trigger = { tag = MAD gvt_N = yes } localization_key = MAD_ins_N }
+text = { trigger = { tag = MAD gvt_C = yes } localization_key = MAD_ins_C }
+text = { trigger = { tag = MAD } localization_key = MAD_ins }
+
+text = { trigger = { tag = MOL gvt_F = yes } localization_key = MOL_ins_F }
+text = { trigger = { tag = MOL gvt_C = yes } localization_key = MOL_ins_C }
+text = { trigger = { tag = MOL } localization_key = MOL_ins }
+
+text = { trigger = { tag = PNG gvt_D = yes } localization_key = PNG_ins_D }
+text = { trigger = { tag = PNG gvt_N = yes } localization_key = PNG_ins_N }
+text = { trigger = { tag = PNG gvt_C = yes } localization_key = PNG_ins_C }
+text = { trigger = { tag = PNG } localization_key = PNG_ins }
+
+text = { trigger = { tag = PUE gvt_F = yes } localization_key = PUE_ins_F }
+text = { trigger = { tag = PUE gvt_N = yes } localization_key = PUE_ins_N }
+text = { trigger = { tag = PUE gvt_C = yes } localization_key = PUE_ins_C }
+text = { trigger = { tag = PUE } localization_key = PUE_ins }
+
+text = { trigger = { tag = QAT gvt_F = yes } localization_key = QAT_ins_F }
+text = { trigger = { tag = QAT gvt_N = yes } localization_key = QAT_ins_N }
+text = { trigger = { tag = QAT gvt_C = yes } localization_key = QAT_ins_C }
+text = { trigger = { tag = QAT } localization_key = QAT_ins }
+
+text = { trigger = { tag = SCO gvt_F = yes } localization_key = SCO_ins_F }
+text = { trigger = { tag = SCO gvt_N = yes } localization_key = SCO_ins_N }
+text = { trigger = { tag = SCO gvt_C = yes } localization_key = SCO_ins_C }
+text = { trigger = { tag = SCO } localization_key = SCO_ins }
+
+text = { trigger = { tag = SRL gvt_F = yes } localization_key = SRL_ins_F }
+text = { trigger = { tag = SRL gvt_D = yes } localization_key = SRL_ins_D }
+text = { trigger = { tag = SRL gvt_C = yes } localization_key = SRL_ins_C }
+text = { trigger = { tag = SRL } localization_key = SRL_ins }
+
+text = { trigger = { tag = SUR gvt_F = yes } localization_key = SUR_ins_F }
+text = { trigger = { tag = SUR gvt_D = yes } localization_key = SUR_ins_D }
+text = { trigger = { tag = SUR gvt_C = yes } localization_key = SUR_ins_C }
+text = { trigger = { tag = SUR } localization_key = SUR_ins }
+
+text = { trigger = { tag = TAJ gvt_F = yes } localization_key = TAJ_ins_F }
+text = { trigger = { tag = TAJ gvt_D = yes } localization_key = TAJ_ins_D }
+text = { trigger = { tag = TAJ gvt_C = yes } localization_key = TAJ_ins_C }
+text = { trigger = { tag = TAJ } localization_key = TAJ_ins }
+
+text = { trigger = { tag = TRI gvt_F = yes } localization_key = TRI_ins_F }
+text = { trigger = { tag = TRI gvt_D = yes } localization_key = TRI_ins_D }
+text = { trigger = { tag = TRI gvt_C = yes } localization_key = TRI_ins_C }
+text = { trigger = { tag = TRI } localization_key = TRI_ins }
+
+text = { trigger = { tag = TMS gvt_F = yes } localization_key = TMS_ins_F }
+text = { trigger = { tag = TMS gvt_D = yes } localization_key = TMS_ins_D }
+text = { trigger = { tag = TMS gvt_C = yes } localization_key = TMS_ins_C }
+text = { trigger = { tag = TMS } localization_key = TMS_ins }
+
+text = { trigger = { tag = UAE gvt_F = yes } localization_key = UAE_ins_F }
+text = { trigger = { tag = UAE gvt_D = yes } localization_key = UAE_ins_D }
+text = { trigger = { tag = UAE gvt_N = yes } localization_key = UAE_ins_N }
+text = { trigger = { tag = UAE gvt_C = yes } localization_key = UAE_ins_C }
+text = { trigger = { tag = UAE } localization_key = UAE_ins }
+
+text = { trigger = { tag = UZB gvt_F = yes } localization_key = UZB_ins_F }
+text = { trigger = { tag = UZB gvt_D = yes } localization_key = UZB_ins_D }
+text = { trigger = { tag = UZB gvt_C = yes } localization_key = UZB_ins_C }
+text = { trigger = { tag = UZB } localization_key = UZB_ins }
+
+text = { trigger = { tag = KUW gvt_F = yes } localization_key = KUW_ins_F }
+text = { trigger = { tag = KUW gvt_N = yes } localization_key = KUW_ins_N }
+text = { trigger = { tag = KUW gvt_C = yes } localization_key = KUW_ins_C }
+text = { trigger = { tag = KUW } localization_key = KUW_ins }
+
+text = { trigger = { tag = CSA gvt_F = yes } localization_key = CSA_ins_F }
+text = { trigger = { tag = CSA gvt_D = yes } localization_key = CSA_ins_D }
+text = { trigger = { tag = CSA gvt_C = yes } localization_key = CSA_ins_C }
+text = { trigger = { tag = CSA } localization_key = CSA_ins }
+
+text = { trigger = { tag = USB } localization_key = USB_ins }
+
+text = { trigger = { tag = CYP is_subject_of = ENG is_dominion = yes has_cosmetic_tag = CYP_UK } localization_key = CYP_UK_dominion_ins }
+text = { trigger = { tag = CYP is_subject_of = ENG is_colony = yes has_cosmetic_tag = CYP_UK } localization_key = CYP_UK_colony_ins }
+text = { trigger = { tag = CYP is_subject_of = ENG is_regpuppet = yes has_cosmetic_tag = CYP_UK } localization_key = CYP_UK_puppet_ins }
+text = { trigger = { tag = CYP is_subject_of = ENG is_intpuppet = yes has_cosmetic_tag = CYP_UK } localization_key = CYP_UK_intpuppet_ins }
+text = { trigger = { tag = CYP gvt_F = yes } localization_key = CYP_ins_F }
+text = { trigger = { tag = CYP gvt_D = yes } localization_key = CYP_ins_D }
+text = { trigger = { tag = CYP gvt_C = yes } localization_key = CYP_ins_C }
+text = { trigger = { tag = CYP } localization_key = CYP_ins }
+
+text = { trigger = { tag = MLT gvt_F = yes } localization_key = MLT_ins_F }
+text = { trigger = { tag = MLT gvt_N = yes } localization_key = MLT_ins_N }
+text = { trigger = { tag = MLT gvt_C = yes } localization_key = MLT_ins_C }
+text = { trigger = { tag = MLT } localization_key = MLT_ins }
+
+text = { trigger = { tag = ALG gvt_F = yes } localization_key = ALG_ins_F }
+text = { trigger = { tag = ALG gvt_D = yes } localization_key = ALG_ins_D }
+text = { trigger = { tag = ALG gvt_C = yes } localization_key = ALG_ins_C }
+text = { trigger = { tag = ALG } localization_key = ALG_ins }
+
+text = { trigger = { tag = MOR gvt_F = yes } localization_key = MOR_ins_F }
+text = { trigger = { tag = MOR gvt_N = yes } localization_key = MOR_ins_N }
+text = { trigger = { tag = MOR gvt_C = yes } localization_key = MOR_ins_C }
+text = { trigger = { tag = MOR } localization_key = MOR_ins }
+
+text = { trigger = { tag = TUN gvt_F = yes } localization_key = TUN_ins_F }
+text = { trigger = { tag = TUN gvt_D = yes } localization_key = TUN_ins_D }
+text = { trigger = { tag = TUN gvt_N = yes } localization_key = TUN_ins_N }
+text = { trigger = { tag = TUN } localization_key = TUN_ins }
+
+text = { trigger = { tag = SUD gvt_F = yes } localization_key = SUD_ins_F }
+text = { trigger = { tag = SUD gvt_D = yes } localization_key = SUD_ins_D }
+text = { trigger = { tag = SUD gvt_C = yes } localization_key = SUD_ins_C }
+text = { trigger = { tag = SUD } localization_key = SUD_ins }
+
+text = { trigger = { tag = ERI gvt_F = yes } localization_key = ERI_ins_F }
+text = { trigger = { tag = ERI gvt_N = yes } localization_key = ERI_ins_N }
+text = { trigger = { tag = ERI gvt_C = yes } localization_key = ERI_ins_C }
+text = { trigger = { tag = ERI } localization_key = ERI_ins }
+
+text = { trigger = { tag = DJI gvt_F = yes } localization_key = DJI_ins_F }
+text = { trigger = { tag = DJI gvt_D = yes } localization_key = DJI_ins_D }
+text = { trigger = { tag = DJI gvt_C = yes } localization_key = DJI_ins_C }
+text = { trigger = { tag = DJI } localization_key = DJI_ins }
+
+text = { trigger = { tag = SOM gvt_F = yes } localization_key = SOM_ins_F }
+text = { trigger = { tag = SOM gvt_N = yes } localization_key = SOM_ins_N }
+text = { trigger = { tag = SOM gvt_C = yes } localization_key = SOM_ins_C }
+text = { trigger = { tag = SOM } localization_key = SOM_ins }
+
+text = { trigger = { tag = UGA gvt_F = yes } localization_key = UGA_ins_F }
+text = { trigger = { tag = UGA gvt_N = yes } localization_key = UGA_ins_N }
+text = { trigger = { tag = UGA gvt_C = yes } localization_key = UGA_ins_C }
+text = { trigger = { tag = UGA } localization_key = UGA_ins }
+
+text = { trigger = { tag = RWA gvt_F = yes } localization_key = RWA_ins_F }
+text = { trigger = { tag = RWA gvt_D = yes } localization_key = RWA_ins_D }
+text = { trigger = { tag = RWA gvt_C = yes } localization_key = RWA_ins_C }
+text = { trigger = { tag = RWA } localization_key = RWA_ins }
+
+text = { trigger = { tag = BRD gvt_F = yes } localization_key = BRD_ins_F }
+text = { trigger = { tag = BRD gvt_N = yes } localization_key = BRD_ins_N }
+text = { trigger = { tag = BRD gvt_C = yes } localization_key = BRD_ins_C }
+text = { trigger = { tag = BRD } localization_key = BRD_ins }
+
+text = { trigger = { tag = TZN gvt_F = yes } localization_key = TZN_ins_F }
+text = { trigger = { tag = TZN gvt_D = yes } localization_key = TZN_ins_D }
+text = { trigger = { tag = TZN gvt_C = yes } localization_key = TZN_ins_C }
+text = { trigger = { tag = TZN } localization_key = TZN_ins }
+
+text = { trigger = { tag = ZAM gvt_F = yes } localization_key = ZAM_ins_F }
+text = { trigger = { tag = ZAM gvt_N = yes } localization_key = ZAM_ins_N }
+text = { trigger = { tag = ZAM gvt_C = yes } localization_key = ZAM_ins_C }
+text = { trigger = { tag = ZAM } localization_key = ZAM_ins }
+
+text = { trigger = { tag = MLW gvt_F = yes } localization_key = MLW_ins_F }
+text = { trigger = { tag = MLW gvt_D = yes } localization_key = MLW_ins_D }
+text = { trigger = { tag = MLW gvt_C = yes } localization_key = MLW_ins_C }
+text = { trigger = { tag = MLW } localization_key = MLW_ins }
+
+text = { trigger = { tag = GAB gvt_F = yes } localization_key = GAB_ins_F }
+text = { trigger = { tag = GAB gvt_D = yes } localization_key = GAB_ins_D }
+text = { trigger = { tag = GAB gvt_C = yes } localization_key = GAB_ins_C }
+text = { trigger = { tag = GAB } localization_key = GAB_ins }
+
+text = { trigger = { tag = RCG gvt_D = yes } localization_key = RCG_ins_D }
+text = { trigger = { tag = RCG gvt_N = yes } localization_key = RCG_ins_N }
+text = { trigger = { tag = RCG gvt_C = yes } localization_key = RCG_ins_C }
+text = { trigger = { tag = RCG } localization_key = RCG_ins }
+
+text = { trigger = { tag = EQC gvt_F = yes } localization_key = EQC_ins_F }
+text = { trigger = { tag = EQC gvt_D = yes } localization_key = EQC_ins_D }
+text = { trigger = { tag = EQC gvt_C = yes } localization_key = EQC_ins_C }
+text = { trigger = { tag = EQC } localization_key = EQC_ins }
+
+text = { trigger = { tag = CMR gvt_F = yes } localization_key = CMR_ins_F }
+text = { trigger = { tag = CMR gvt_D = yes } localization_key = CMR_ins_D }
+text = { trigger = { tag = CMR gvt_C = yes } localization_key = CMR_ins_C }
+text = { trigger = { tag = CMR } localization_key = CMR_ins }
+
+text = { trigger = { tag = CAR gvt_F = yes } localization_key = CAR_ins_F }
+text = { trigger = { tag = CAR gvt_D = yes } localization_key = CAR_ins_D }
+text = { trigger = { tag = CAR gvt_N = yes } localization_key = CAR_ins_N }
+text = { trigger = { tag = CAR gvt_C = yes } localization_key = CAR_ins_C }
+text = { trigger = { tag = CAR } localization_key = CAR_ins }
+
+text = { trigger = { tag = CHA gvt_F = yes } localization_key = CHA_ins_F }
+text = { trigger = { tag = CHA gvt_D = yes } localization_key = CHA_ins_D }
+text = { trigger = { tag = CHA gvt_C = yes } localization_key = CHA_ins_C }
+text = { trigger = { tag = CHA } localization_key = CHA_ins }
+
+text = { trigger = { tag = NGA gvt_F = yes } localization_key = NGA_ins_F }
+text = { trigger = { tag = NGA gvt_D = yes } localization_key = NGA_ins_D }
+text = { trigger = { tag = NGA gvt_C = yes } localization_key = NGA_ins_C }
+text = { trigger = { tag = NGA } localization_key = NGA_ins }
+
+text = { trigger = { tag = DAH gvt_F = yes } localization_key = DAH_ins_F }
+text = { trigger = { tag = DAH gvt_N = yes } localization_key = DAH_ins_N }
+text = { trigger = { tag = DAH gvt_C = yes } localization_key = DAH_ins_C }
+text = { trigger = { tag = DAH } localization_key = DAH_ins }
+
+text = { trigger = { tag = TOG gvt_F = yes } localization_key = TOG_ins_F }
+text = { trigger = { tag = TOG gvt_D = yes } localization_key = TOG_ins_D }
+text = { trigger = { tag = TOG gvt_C = yes } localization_key = TOG_ins_C }
+text = { trigger = { tag = TOG } localization_key = TOG_ins }
+
+text = { trigger = { tag = GHA gvt_F = yes } localization_key = GHA_ins_F }
+text = { trigger = { tag = GHA gvt_D = yes } localization_key = GHA_ins_D }
+text = { trigger = { tag = GHA gvt_C = yes } localization_key = GHA_ins_C }
+text = { trigger = { tag = GHA } localization_key = GHA_ins }
+
+text = { trigger = { tag = IVO gvt_F = yes } localization_key = IVO_ins_F }
+text = { trigger = { tag = IVO gvt_D = yes } localization_key = IVO_ins_D }
+text = { trigger = { tag = IVO gvt_C = yes } localization_key = IVO_ins_C }
+text = { trigger = { tag = IVO } localization_key = IVO_ins }
+
+text = { trigger = { tag = VOL gvt_F = yes } localization_key = VOL_ins_F }
+text = { trigger = { tag = VOL gvt_D = yes } localization_key = VOL_ins_D }
+text = { trigger = { tag = VOL gvt_C = yes } localization_key = VOL_ins_C }
+text = { trigger = { tag = VOL } localization_key = VOL_ins }
+
+text = { trigger = { tag = MLI gvt_F = yes } localization_key = MLI_ins_F }
+text = { trigger = { tag = MLI gvt_D = yes } localization_key = MLI_ins_D }
+text = { trigger = { tag = MLI gvt_C = yes } localization_key = MLI_ins_C }
+text = { trigger = { tag = MLI } localization_key = MLI_ins }
+
+text = { trigger = { tag = SIE gvt_F = yes } localization_key = SIE_ins_F }
+text = { trigger = { tag = SIE gvt_N = yes } localization_key = SIE_ins_N }
+text = { trigger = { tag = SIE gvt_C = yes } localization_key = SIE_ins_C }
+text = { trigger = { tag = SIE } localization_key = SIE_ins }
+
+text = { trigger = { tag = GNA gvt_F = yes } localization_key = GNA_ins_F }
+text = { trigger = { tag = GNA gvt_D = yes } localization_key = GNA_ins_D }
+text = { trigger = { tag = GNA gvt_C = yes } localization_key = GNA_ins_C }
+text = { trigger = { tag = GNA } localization_key = GNA_ins }
+
+text = { trigger = { tag = GNB gvt_F = yes } localization_key = GNB_ins_F }
+text = { trigger = { tag = GNB gvt_D = yes } localization_key = GNB_ins_D }
+text = { trigger = { tag = GNB gvt_N = yes } localization_key = GNB_ins_N }
+text = { trigger = { tag = GNB } localization_key = GNB_ins }
+
+text = { trigger = { tag = SEN gvt_F = yes } localization_key = SEN_ins_F }
+text = { trigger = { tag = SEN gvt_N = yes } localization_key = SEN_ins_N }
+text = { trigger = { tag = SEN gvt_C = yes } localization_key = SEN_ins_C }
+text = { trigger = { tag = SEN } localization_key = SEN_ins }
+
+text = { trigger = { tag = GAM gvt_F = yes } localization_key = GAM_ins_F }
+text = { trigger = { tag = GAM gvt_N = yes } localization_key = GAM_ins_N }
+text = { trigger = { tag = GAM gvt_C = yes } localization_key = GAM_ins_C }
+text = { trigger = { tag = GAM } localization_key = GAM_ins }
+
+text = { trigger = { tag = WLS gvt_F = yes } localization_key = WLS_ins_F }
+text = { trigger = { tag = WLS gvt_N = yes } localization_key = WLS_ins_N }
+text = { trigger = { tag = WLS gvt_C = yes } localization_key = WLS_ins_C }
+text = { trigger = { tag = WLS } localization_key = WLS_ins }
+
+text = { trigger = { tag = NGR gvt_F = yes } localization_key = NGR_ins_F }
+text = { trigger = { tag = NGR gvt_D = yes } localization_key = NGR_ins_D }
+text = { trigger = { tag = NGR gvt_C = yes } localization_key = NGR_ins_C }
+text = { trigger = { tag = NGR } localization_key = NGR_ins }
+
+text = { trigger = { tag = MRT gvt_F = yes } localization_key = MRT_ins_F }
+text = { trigger = { tag = MRT gvt_D = yes } localization_key = MRT_ins_D }
+text = { trigger = { tag = MRT gvt_C = yes } localization_key = MRT_ins_C }
+text = { trigger = { tag = MRT } localization_key = MRT_ins }
+
+text = { trigger = { tag = NMB gvt_F = yes } localization_key = NMB_ins_F }
+text = { trigger = { tag = NMB gvt_N = yes } localization_key = NMB_ins_N }
+text = { trigger = { tag = NMB gvt_C = yes } localization_key = NMB_ins_C }
+text = { trigger = { tag = NMB } localization_key = NMB_ins }
+
+text = { trigger = { tag = WES gvt_F = yes } localization_key = WES_ins_F }
+text = { trigger = { tag = WES gvt_D = yes } localization_key = WES_ins_D }
+text = { trigger = { tag = WES gvt_N = yes } localization_key = WES_ins_N }
+text = { trigger = { tag = WES gvt_C = yes } localization_key = WES_ins_C }
+text = { trigger = { tag = WES } localization_key = WES_ins }
+
+text = { trigger = { tag = BAS gvt_F = yes } localization_key = BAS_ins_F }
+text = { trigger = { tag = BAS gvt_D = yes } localization_key = BAS_ins_D }
+text = { trigger = { tag = BAS gvt_N = yes } localization_key = BAS_ins_N }
+text = { trigger = { tag = BAS gvt_C = yes } localization_key = BAS_ins_C }
+text = { trigger = { tag = BAS } localization_key = BAS_ins }
+
+text = { trigger = { tag = CAY gvt_F = yes } localization_key = CAY_ins_F }
+text = { trigger = { tag = CAY gvt_D = yes } localization_key = CAY_ins_D }
+text = { trigger = { tag = CAY gvt_N = yes } localization_key = CAY_ins_N }
+text = { trigger = { tag = CAY gvt_C = yes } localization_key = CAY_ins_C }
+text = { trigger = { tag = CAY } localization_key = CAY_ins }
+
+text = { trigger = { tag = MLD gvt_F = yes } localization_key = MLD_ins_F }
+text = { trigger = { tag = MLD gvt_N = yes } localization_key = MLD_ins_N }
+text = { trigger = { tag = MLD gvt_C = yes } localization_key = MLD_ins_C }
+text = { trigger = { tag = MLD } localization_key = MLD_ins }
+
+text = { trigger = { tag = FIJ gvt_F = yes } localization_key = FIJ_ins_F }
+text = { trigger = { tag = FIJ gvt_D = yes } localization_key = FIJ_ins_D }
+text = { trigger = { tag = FIJ gvt_C = yes } localization_key = FIJ_ins_C }
+text = { trigger = { tag = FIJ } localization_key = FIJ_ins }
+
+text = { trigger = { tag = TAH gvt_F = yes } localization_key = TAH_ins_F }
+text = { trigger = { tag = TAH gvt_D = yes } localization_key = TAH_ins_D }
+text = { trigger = { tag = TAH gvt_C = yes } localization_key = TAH_ins_C }
+text = { trigger = { tag = TAH } localization_key = TAH_ins }
+
+text = { trigger = { tag = FSM gvt_F = yes } localization_key = FSM_ins_F }
+text = { trigger = { tag = FSM gvt_D = yes } localization_key = FSM_ins_D }
+text = { trigger = { tag = FSM gvt_C = yes } localization_key = FSM_ins_C }
+text = { trigger = { tag = FSM } localization_key = FSM_ins }
+
+text = { trigger = { tag = GUM gvt_F = yes } localization_key = GUM_ins_F }
+text = { trigger = { tag = GUM gvt_D = yes } localization_key = GUM_ins_D }
+text = { trigger = { tag = GUM gvt_C = yes } localization_key = GUM_ins_C }
+text = { trigger = { tag = GUM } localization_key = GUM_ins }
+
+text = { trigger = { tag = SOL gvt_F = yes } localization_key = SOL_ins_F }
+text = { trigger = { tag = SOL gvt_C = yes } localization_key = SOL_ins_C }
+text = { trigger = { tag = SOL } localization_key = SOL_ins }
+
+text = { trigger = { tag = SAM gvt_F = yes } localization_key = SAM_ins_F }
+text = { trigger = { tag = SAM gvt_D = yes } localization_key = SAM_ins_D }
+text = { trigger = { tag = SAM gvt_C = yes } localization_key = SAM_ins_C }
+text = { trigger = { tag = SAM } localization_key = SAM_ins }
+
+text = { trigger = { tag = HAW gvt_F = yes } localization_key = HAW_ins_F }
+text = { trigger = { tag = HAW gvt_D = yes } localization_key = HAW_ins_D }
+text = { trigger = { tag = HAW gvt_N = yes } localization_key = HAW_ins_N }
+text = { trigger = { tag = HAW gvt_C = yes } localization_key = HAW_ins_C }
+text = { trigger = { tag = HAW } localization_key = HAW_ins }
+
+text = { trigger = { tag = SLV is_subject_of = ITA gvt_F = yes } localization_key = SLV_ITA_subject_ins_F }
+text = { trigger = { tag = SLV is_subject_of = YUG } localization_key = SLV_YUG_subject_ins }
+text = { trigger = { tag = SLV gvt_F = yes } localization_key = SLV_ins_F }
+text = { trigger = { tag = SLV gvt_D = yes } localization_key = SLV_ins_D }
+text = { trigger = { tag = SLV gvt_C = yes } localization_key = SLV_ins_C }
+text = { trigger = { tag = SLV } localization_key = SLV_ins }
+
+text = { trigger = { tag = BOS is_subject_of = ITA gvt_F = yes } localization_key = BIH_ITA_subject_ins_F }
+text = { trigger = { tag = BOS is_subject_of = YUG } localization_key = BIH_YUG_subject_ins }
+text = { trigger = { tag = BOS gvt_F = yes } localization_key = BOS_ins_F }
+text = { trigger = { tag = BOS gvt_D = yes } localization_key = BOS_ins_D }
+text = { trigger = { tag = BOS gvt_C = yes } localization_key = BOS_ins_C }
+text = { trigger = { tag = BOS } localization_key = BOS_ins }
+
+text = { trigger = { tag = HRZ is_subject_of = ITA gvt_F = yes } localization_key = HRZ_ITA_subject_ins_F }
+text = { trigger = { tag = HRZ is_subject_of = YUG } localization_key = HRZ_YUG_subject_ins }
+text = { trigger = { tag = HRZ gvt_F = yes } localization_key = HRZ_ins_F }
+text = { trigger = { tag = HRZ gvt_D = yes } localization_key = HRZ_ins_D }
+text = { trigger = { tag = HRZ gvt_C = yes } localization_key = HRZ_ins_C }
+text = { trigger = { tag = HRZ } localization_key = HRZ_ins }
+
+text = { trigger = { tag = MAC is_subject_of = ITA gvt_F = yes } localization_key = MAC_ITA_subject_ins_F }
+text = { trigger = { tag = MAC is_subject_of = YUG } localization_key = MAC_YUG_subject_ins }
+text = { trigger = { tag = MAC gvt_F = yes } localization_key = MAC_ins_F }
+text = { trigger = { tag = MAC gvt_D = yes } localization_key = MAC_ins_D }
+text = { trigger = { tag = MAC gvt_C = yes } localization_key = MAC_ins_C }
+text = { trigger = { tag = MAC } localization_key = MAC_ins }
+
+text = { trigger = { tag = NIR gvt_F = yes } localization_key = NIR_ins_F }
+text = { trigger = { tag = NIR gvt_N = yes } localization_key = NIR_ins_N }
+text = { trigger = { tag = NIR gvt_C = yes } localization_key = NIR_ins_C }
+text = { trigger = { tag = NIR } localization_key = NIR_ins }
+
+text = { trigger = { tag = NAV gvt_F = yes } localization_key = NAV_ins_F }
+text = { trigger = { tag = NAV gvt_N = yes } localization_key = NAV_ins_N }
+text = { trigger = { tag = NAV gvt_C = yes } localization_key = NAV_ins_C }
+text = { trigger = { tag = NAV } localization_key = NAV_ins }
+
+text = { trigger = { tag = CAT gvt_F = yes } localization_key = CAT_ins_F }
+text = { trigger = { tag = CAT gvt_D = yes } localization_key = CAT_ins_D }
+text = { trigger = { tag = CAT gvt_C = yes } localization_key = CAT_ins_C }
+text = { trigger = { tag = CAT } localization_key = CAT_ins }
+
+text = { trigger = { tag = GLC gvt_F = yes } localization_key = GLC_ins_F }
+text = { trigger = { tag = GLC gvt_D = yes } localization_key = GLC_ins_D }
+text = { trigger = { tag = GLC gvt_C = yes } localization_key = GLC_ins_C }
+text = { trigger = { tag = GLC } localization_key = GLC_ins }
+
+text = { trigger = { tag = ADU gvt_F = yes } localization_key = ADU_ins_F }
+text = { trigger = { tag = ADU gvt_D = yes } localization_key = ADU_ins_D }
+text = { trigger = { tag = ADU gvt_N = yes } localization_key = ADU_ins_N }
+text = { trigger = { tag = ADU gvt_C = yes } localization_key = ADU_ins_C }
+text = { trigger = { tag = ADU } localization_key = ADU_ins }
+
+text = { trigger = { tag = BAY gvt_F = yes } localization_key = BAY_ins_F }
+text = { trigger = { tag = BAY gvt_D = yes } localization_key = BAY_ins_D }
+text = { trigger = { tag = BAY gvt_N = yes } localization_key = BAY_ins_N }
+text = { trigger = { tag = BAY gvt_C = yes } localization_key = BAY_ins_C }
+text = { trigger = { tag = BAY } localization_key = BAY_ins }
+
+text = { trigger = { tag = MEK gvt_F = yes } localization_key = MEK_ins_F }
+text = { trigger = { tag = MEK gvt_D = yes } localization_key = MEK_ins_D }
+text = { trigger = { tag = MEK gvt_N = yes } localization_key = MEK_ins_N }
+text = { trigger = { tag = MEK gvt_C = yes } localization_key = MEK_ins_C }
+text = { trigger = { tag = MEK } localization_key = MEK_ins }
+
+text = { trigger = { tag = PRE gvt_F = yes } localization_key = PRE_ins_F }
+text = { trigger = { tag = PRE gvt_D = yes } localization_key = PRE_ins_D }
+text = { trigger = { tag = PRE gvt_N = yes } localization_key = PRE_ins_N }
+text = { trigger = { tag = PRE gvt_C = yes } localization_key = PRE_ins_C }
+text = { trigger = { tag = PRE } localization_key = PRE_ins }
+
+text = { trigger = { tag = SAX gvt_F = yes } localization_key = SAX_ins_F }
+text = { trigger = { tag = SAX gvt_D = yes } localization_key = SAX_ins_D }
+text = { trigger = { tag = SAX gvt_N = yes } localization_key = SAX_ins_N }
+text = { trigger = { tag = SAX gvt_C = yes } localization_key = SAX_ins_C }
+text = { trigger = { tag = SAX } localization_key = SAX_ins }
+
+text = { trigger = { tag = HAN gvt_F = yes } localization_key = HAN_ins_F }
+text = { trigger = { tag = HAN gvt_D = yes } localization_key = HAN_ins_D }
+text = { trigger = { tag = HAN gvt_N = yes } localization_key = HAN_ins_N }
+text = { trigger = { tag = HAN gvt_C = yes } localization_key = HAN_ins_C }
+text = { trigger = { tag = HAN } localization_key = HAN_ins }
+
+text = { trigger = { tag = WUR gvt_F = yes } localization_key = WUR_ins_F }
+text = { trigger = { tag = WUR gvt_D = yes } localization_key = WUR_ins_D }
+text = { trigger = { tag = WUR gvt_N = yes } localization_key = WUR_ins_N }
+text = { trigger = { tag = WUR gvt_C = yes } localization_key = WUR_ins_C }
+text = { trigger = { tag = WUR } localization_key = WUR_ins }
+
+text = { trigger = { tag = SHL gvt_F = yes } localization_key = SHL_ins_F }
+text = { trigger = { tag = SHL gvt_D = yes } localization_key = SHL_ins_D }
+text = { trigger = { tag = SHL gvt_N = yes } localization_key = SHL_ins_N }
+text = { trigger = { tag = SHL gvt_C = yes } localization_key = SHL_ins_C }
+text = { trigger = { tag = SHL } localization_key = SHL_ins }
+
+text = { trigger = { tag = BRI gvt_F = yes } localization_key = BRI_ins_F }
+text = { trigger = { tag = BRI gvt_D = yes } localization_key = BRI_ins_D }
+text = { trigger = { tag = BRI gvt_C = yes } localization_key = BRI_ins_C }
+text = { trigger = { tag = BRI } localization_key = BRI_ins }
+
+text = { trigger = { tag = OCC is_subject_of = ENG gvt_N = yes } localization_key = OCC_ENG_subject_ins_N }
+text = { trigger = { tag = OCC is_subject_of = FRA } localization_key = OCC_FRA_subject_ins }
+text = { trigger = { tag = OCC is_subject = yes } localization_key = OCC_subject_ins }
+text = { trigger = { tag = OCC gvt_F = yes } localization_key = OCC_ins_F }
+text = { trigger = { tag = OCC gvt_N = yes } localization_key = OCC_ins_N }
+text = { trigger = { tag = OCC gvt_C = yes } localization_key = OCC_ins_C }
+text = { trigger = { tag = OCC } localization_key = OCC_ins }
+
+text = { trigger = { tag = COR gvt_F = yes } localization_key = COR_ins_F }
+text = { trigger = { tag = COR gvt_D = yes } localization_key = COR_ins_D }
+text = { trigger = { tag = COR gvt_N = yes } localization_key = COR_ins_N }
+text = { trigger = { tag = COR gvt_C = yes } localization_key = COR_ins_C }
+text = { trigger = { tag = COR } localization_key = COR_ins }
+
+text = { trigger = { tag = KUR is_subject_of = FRA is_dominion = yes } localization_key = KUR_FRA_dominion_ins }
+text = { trigger = { tag = KUR is_subject_of = FRA is_colony = yes } localization_key = KUR_FRA_colony_ins }
+text = { trigger = { tag = KUR is_subject_of = FRA is_regpuppet = yes } localization_key = KUR_FRA_puppet_ins }
+text = { trigger = { tag = KUR is_subject_of = FRA is_intpuppet = yes } localization_key = KUR_FRA_intpuppet_ins }
+text = { trigger = { tag = KUR gvt_F = yes } localization_key = KUR_ins_F }
+text = { trigger = { tag = KUR gvt_N = yes } localization_key = KUR_ins_N }
+text = { trigger = { tag = KUR gvt_C = yes } localization_key = KUR_ins_C }
+text = { trigger = { tag = KUR } localization_key = KUR_ins }
+
+text = { trigger = { tag = TRA is_subject_of = ITA gvt_F = yes } localization_key = TRA_ITA_subject_ins_F }
+text = { trigger = { tag = TRA is_subject_of = YUG } localization_key = TRA_YUG_subject_ins }
+text = { trigger = { tag = TRA gvt_F = yes } localization_key = TRA_ins_F }
+text = { trigger = { tag = TRA gvt_N = yes } localization_key = TRA_ins_N }
+text = { trigger = { tag = TRA gvt_C = yes } localization_key = TRA_ins_C }
+text = { trigger = { tag = TRA } localization_key = TRA_ins }
+
+text = { trigger = { tag = KOS is_subject_of = ITA gvt_F = yes } localization_key = KOS_ITA_subject_ins_F }
+text = { trigger = { tag = KOS is_subject_of = YUG } localization_key = KOS_YUG_subject_ins }
+text = { trigger = { tag = KOS gvt_F = yes } localization_key = KOS_ins_F }
+text = { trigger = { tag = KOS gvt_D = yes } localization_key = KOS_ins_D }
+text = { trigger = { tag = KOS gvt_C = yes } localization_key = KOS_ins_C }
+text = { trigger = { tag = KOS } localization_key = KOS_ins }
+
+text = { trigger = { tag = DNZ is_subject_of = GER gvt_F = yes } localization_key = DNZ_GER_subject_ins_F }
+text = { trigger = { tag = DNZ gvt_FD = yes } localization_key = DNZ_fd_ins }
+text = { trigger = { tag = DNZ gvt_C = yes } localization_key = DNZ_ins_C }
+text = { trigger = { tag = DNZ } localization_key = DNZ_ins }
+
+text = { trigger = { tag = SIL gvt_F = yes } localization_key = SIL_ins_F }
+text = { trigger = { tag = SIL gvt_N = yes } localization_key = SIL_ins_N }
+text = { trigger = { tag = SIL gvt_C = yes } localization_key = SIL_ins_C }
+text = { trigger = { tag = SIL } localization_key = SIL_ins }
+
+text = { trigger = { tag = KSH gvt_F = yes } localization_key = KSH_ins_F }
+text = { trigger = { tag = KSH gvt_N = yes } localization_key = KSH_ins_N }
+text = { trigger = { tag = KSH gvt_C = yes } localization_key = KSH_ins_C }
+text = { trigger = { tag = KSH } localization_key = KSH_ins }
+
+text = { trigger = { tag = DON gvt_F = yes is_SOV_ssr = yes } localization_key = DON_SOV_subject_ins_C }
+text = { trigger = { tag = DON gvt_F = yes } localization_key = DON_ins_F }
+text = { trigger = { tag = DON gvt_C = yes } localization_key = DON_ins_C }
+text = { trigger = { tag = DON } localization_key = DON_ins }
+
+text = { trigger = { tag = KUB gvt_F = yes is_SOV_ssr = yes } localization_key = KUB_SOV_subject_ins_C }
+text = { trigger = { tag = KUB gvt_F = yes } localization_key = KUB_ins_F }
+text = { trigger = { tag = KUB gvt_C = yes } localization_key = KUB_ins_C }
+text = { trigger = { tag = KUB } localization_key = KUB_ins }
+
+text = { trigger = { tag = ALT is_SOV_ssr = yes } localization_key = ALT_SOV_subject_ins_C }
+text = { trigger = { tag = ALT gvt_F = yes } localization_key = ALT_ins_F }
+text = { trigger = { tag = ALT gvt_D = yes } localization_key = ALT_ins_D }
+text = { trigger = { tag = ALT gvt_N = yes } localization_key = ALT_ins_N }
+text = { trigger = { tag = ALT gvt_C = yes } localization_key = ALT_ins_C }
+
+text = { trigger = { tag = KAL is_SOV_ssr = yes } localization_key = KAL_SOV_subject_ins_C }
+text = { trigger = { tag = KAL gvt_F = yes } localization_key = KAL_ins_F }
+text = { trigger = { tag = KAL gvt_D = yes } localization_key = KAL_ins_D }
+text = { trigger = { tag = KAL gvt_N = yes } localization_key = KAL_ins_N }
+text = { trigger = { tag = KAL gvt_C = yes } localization_key = KAL_ins_C }
+
+text = { trigger = { tag = KAR is_SOV_ssr = yes } localization_key = KAR_SOV_subject_ins_C }
+text = { trigger = { tag = KAR gvt_F = yes } localization_key = KAR_ins_F }
+text = { trigger = { tag = KAR gvt_D = yes } localization_key = KAR_ins_D }
+text = { trigger = { tag = KAR gvt_N = yes } localization_key = KAR_ins_N }
+text = { trigger = { tag = KAR gvt_C = yes } localization_key = KAR_ins_C }
+
+text = { trigger = { tag = CRI is_subject_of = GER gvt_F = yes } localization_key = CRI_GER_subject_ins_F }
+text = { trigger = { tag = CRI is_subject_of = ITA gvt_F = yes } localization_key = CRI_ITA_subject_ins_F }
+text = { trigger = { tag = CRI is_SOV_ssr = yes } localization_key = CRI_SOV_subject_ins_C }
+text = { trigger = { tag = CRI gvt_F = yes } localization_key = CRI_ins_F }
+text = { trigger = { tag = CRI gvt_D = yes } localization_key = CRI_ins_D }
+text = { trigger = { tag = CRI gvt_N = yes } localization_key = CRI_ins_N }
+text = { trigger = { tag = CRI gvt_C = yes } localization_key = CRI_ins_C }
+
+text = { trigger = { tag = TAT is_SOV_ssr = yes } localization_key = TAT_SOV_subject_ins_C }
+text = { trigger = { tag = TAT gvt_F = yes } localization_key = TAT_ins_F }
+text = { trigger = { tag = TAT gvt_D = yes } localization_key = TAT_ins_D }
+text = { trigger = { tag = TAT gvt_N = yes } localization_key = TAT_ins_N }
+text = { trigger = { tag = TAT gvt_C = yes } localization_key = TAT_ins_C }
+
+text = { trigger = { tag = CIN is_SOV_ssr = yes } localization_key = CIN_SOV_subject_ins_C }
+text = { trigger = { tag = CIN gvt_F = yes } localization_key = CIN_ins_F }
+text = { trigger = { tag = CIN gvt_D = yes } localization_key = CIN_ins_D }
+text = { trigger = { tag = CIN gvt_N = yes } localization_key = CIN_ins_N }
+text = { trigger = { tag = CIN gvt_C = yes } localization_key = CIN_ins_C }
+
+text = { trigger = { tag = DAG is_SOV_ssr = yes } localization_key = DAG_SOV_subject_ins_C }
+text = { trigger = { tag = DAG gvt_F = yes } localization_key = DAG_ins_F }
+text = { trigger = { tag = DAG gvt_D = yes } localization_key = DAG_ins_D }
+text = { trigger = { tag = DAG gvt_N = yes } localization_key = DAG_ins_N }
+text = { trigger = { tag = DAG gvt_C = yes } localization_key = DAG_ins_C }
+
+text = { trigger = { tag = BYA is_SOV_ssr = yes } localization_key = BYA_SOV_subject_ins_C }
+text = { trigger = { tag = BYA gvt_F = yes is_subject_of = JAP } localization_key = BYA_JAP_subject_ins_F }
+text = { trigger = { tag = BYA gvt_N = yes is_subject_of = JAP } localization_key = BYA_JAP_subject_ins_N }
+text = { trigger = { tag = BYA gvt_F = yes } localization_key = BYA_ins_F }
+text = { trigger = { tag = BYA gvt_D = yes } localization_key = BYA_ins_D }
+text = { trigger = { tag = BYA gvt_N = yes } localization_key = BYA_ins_N }
+text = { trigger = { tag = BYA gvt_C = yes } localization_key = BYA_ins_C }
+
+text = { trigger = { tag = FER is_SOV_ssr = yes } localization_key = FER_SOV_subject_ins_C }
+text = { trigger = { tag = FER gvt_F = yes is_subject_of = JAP } localization_key = FER_JAP_subject_ins_F }
+text = { trigger = { tag = FER gvt_N = yes is_subject_of = JAP } localization_key = FER_JAP_subject_ins_N }
+text = { trigger = { tag = FER gvt_F = yes } localization_key = FER_ins_F }
+text = { trigger = { tag = FER gvt_D = yes } localization_key = FER_ins_D }
+text = { trigger = { tag = FER gvt_N = yes } localization_key = FER_ins_N }
+text = { trigger = { tag = FER gvt_C = yes } localization_key = FER_ins_C }
+
+text = { trigger = { tag = CKK is_SOV_ssr = yes } localization_key = CKK_SOV_subject_ins_C }
+text = { trigger = { tag = CKK gvt_F = yes is_subject_of = JAP } localization_key = CKK_JAP_subject_ins_F }
+text = { trigger = { tag = CKK gvt_N = yes is_subject_of = JAP } localization_key = CKK_JAP_subject_ins_N }
+text = { trigger = { tag = CKK gvt_F = yes } localization_key = CKK_ins_F }
+text = { trigger = { tag = CKK gvt_D = yes } localization_key = CKK_ins_D }
+text = { trigger = { tag = CKK gvt_N = yes } localization_key = CKK_ins_N }
+text = { trigger = { tag = CKK gvt_C = yes } localization_key = CKK_ins_C }
+
+text = { trigger = { tag = YAK is_SOV_ssr = yes } localization_key = YAK_SOV_subject_ins_C }
+text = { trigger = { tag = YAK gvt_F = yes is_subject_of = JAP } localization_key = YAK_JAP_subject_ins_F }
+text = { trigger = { tag = YAK gvt_N = yes is_subject_of = JAP } localization_key = YAK_JAP_subject_ins_N }
+text = { trigger = { tag = YAK gvt_F = yes } localization_key = YAK_ins_F }
+text = { trigger = { tag = YAK gvt_D = yes } localization_key = YAK_ins_D }
+text = { trigger = { tag = YAK gvt_N = yes } localization_key = YAK_ins_N }
+text = { trigger = { tag = YAK gvt_C = yes } localization_key = YAK_ins_C }
+
+text = { trigger = { tag = VLA is_SOV_ssr = yes } localization_key = VLA_SOV_subject_ins_C }
+text = { trigger = { tag = VLA gvt_F = yes is_subject_of = JAP } localization_key = VLA_JAP_subject_ins_F }
+text = { trigger = { tag = VLA gvt_N = yes is_subject_of = JAP } localization_key = VLA_JAP_subject_ins_N }
+text = { trigger = { tag = VLA gvt_F = yes } localization_key = VLA_ins_F }
+text = { trigger = { tag = VLA gvt_D = yes } localization_key = VLA_ins_D }
+text = { trigger = { tag = VLA gvt_N = yes } localization_key = VLA_ins_N }
+text = { trigger = { tag = VLA gvt_C = yes } localization_key = VLA_ins_C }
+
+text = { trigger = { tag = KKP is_SOV_ssr = yes } localization_key = KKP_SOV_subject_ins_C }
+text = { trigger = { tag = KKP gvt_F = yes } localization_key = KKP_ins_F }
+text = { trigger = { tag = KKP gvt_D = yes } localization_key = KKP_ins_D }
+text = { trigger = { tag = KKP gvt_N = yes } localization_key = KKP_ins_N }
+text = { trigger = { tag = KKP gvt_C = yes } localization_key = KKP_ins_C }
+
+text = { trigger = { tag = TAY is_SOV_ssr = yes } localization_key = TAY_SOV_subject_ins_C }
+text = { trigger = { tag = TAY gvt_F = yes is_subject_of = JAP } localization_key = TAY_JAP_subject_ins_F }
+text = { trigger = { tag = TAY gvt_N = yes is_subject_of = JAP } localization_key = TAY_JAP_subject_ins_N }
+text = { trigger = { tag = TAY gvt_F = yes } localization_key = TAY_ins_F }
+text = { trigger = { tag = TAY gvt_D = yes } localization_key = TAY_ins_D }
+text = { trigger = { tag = TAY gvt_N = yes } localization_key = TAY_ins_N }
+text = { trigger = { tag = TAY gvt_C = yes } localization_key = TAY_ins_C }
+
+text = { trigger = { tag = YAM is_SOV_ssr = yes } localization_key = YAM_SOV_subject_ins_C }
+text = { trigger = { tag = YAM gvt_F = yes is_subject_of = JAP } localization_key = YAM_JAP_subject_ins_F }
+text = { trigger = { tag = YAM gvt_N = yes is_subject_of = JAP } localization_key = YAM_JAP_subject_ins_N }
+text = { trigger = { tag = YAM gvt_F = yes } localization_key = YAM_ins_F }
+text = { trigger = { tag = YAM gvt_D = yes } localization_key = YAM_ins_D }
+text = { trigger = { tag = YAM gvt_N = yes } localization_key = YAM_ins_N }
+text = { trigger = { tag = YAM gvt_C = yes } localization_key = YAM_ins_C }
+
+text = { trigger = { tag = OVO is_SOV_ssr = yes } localization_key = OVO_SOV_subject_ins_C }
+text = { trigger = { tag = OVO gvt_F = yes } localization_key = OVO_ins_F }
+text = { trigger = { tag = OVO gvt_D = yes } localization_key = OVO_ins_D }
+text = { trigger = { tag = OVO gvt_N = yes } localization_key = OVO_ins_N }
+text = { trigger = { tag = OVO gvt_C = yes } localization_key = OVO_ins_C }
+
+text = { trigger = { tag = NEN is_SOV_ssr = yes } localization_key = NEN_SOV_subject_ins_C }
+text = { trigger = { tag = NEN gvt_F = yes } localization_key = NEN_ins_F }
+text = { trigger = { tag = NEN gvt_D = yes } localization_key = NEN_ins_D }
+text = { trigger = { tag = NEN gvt_N = yes } localization_key = NEN_ins_N }
+text = { trigger = { tag = NEN gvt_C = yes } localization_key = NEN_ins_C }
+
+text = { trigger = { tag = KOM is_SOV_ssr = yes } localization_key = KOM_SOV_subject_ins_C }
+text = { trigger = { tag = KOM gvt_F = yes } localization_key = KOM_ins_F }
+text = { trigger = { tag = KOM gvt_D = yes } localization_key = KOM_ins_D }
+text = { trigger = { tag = KOM gvt_N = yes } localization_key = KOM_ins_N }
+text = { trigger = { tag = KOM gvt_C = yes } localization_key = KOM_ins_C }
+
+text = { trigger = { tag = ABK is_SOV_ssr = yes } localization_key = ABK_SOV_subject_ins_C }
+text = { trigger = { tag = ABK gvt_F = yes } localization_key = ABK_ins_F }
+text = { trigger = { tag = ABK gvt_D = yes } localization_key = ABK_ins_D }
+text = { trigger = { tag = ABK gvt_N = yes } localization_key = ABK_ins_N }
+text = { trigger = { tag = ABK gvt_C = yes } localization_key = ABK_ins_C }
+
+text = { trigger = { tag = KBK is_SOV_ssr = yes } localization_key = KBK_SOV_subject_ins_C }
+text = { trigger = { tag = KBK gvt_F = yes } localization_key = KBK_ins_F }
+text = { trigger = { tag = KBK gvt_D = yes } localization_key = KBK_ins_D }
+text = { trigger = { tag = KBK gvt_N = yes } localization_key = KBK_ins_N }
+text = { trigger = { tag = KBK gvt_C = yes } localization_key = KBK_ins_C }
+
+text = { trigger = { tag = NOA is_SOV_ssr = yes } localization_key = NOA_SOV_subject_ins_C }
+text = { trigger = { tag = NOA gvt_F = yes } localization_key = NOA_ins_F }
+text = { trigger = { tag = NOA gvt_D = yes } localization_key = NOA_ins_D }
+text = { trigger = { tag = NOA gvt_N = yes } localization_key = NOA_ins_N }
+text = { trigger = { tag = NOA gvt_C = yes } localization_key = NOA_ins_C }
+
+text = { trigger = { tag = VGE is_subject_of = GER gvt_F = yes } localization_key = VGE_GER_subject_ins_F }
+text = { trigger = { tag = VGE is_SOV_ssr = yes } localization_key = VGE_SOV_subject_ins_C }
+text = { trigger = { tag = VGE gvt_F = yes } localization_key = VGE_ins_F }
+text = { trigger = { tag = VGE gvt_D = yes } localization_key = VGE_ins_D }
+text = { trigger = { tag = VGE gvt_N = yes } localization_key = VGE_ins_N }
+text = { trigger = { tag = VGE gvt_C = yes } localization_key = VGE_ins_C }
+
+text = { trigger = { tag = BSK is_SOV_ssr = yes } localization_key = BSK_SOV_subject_ins_C }
+text = { trigger = { tag = BSK gvt_F = yes } localization_key = BSK_ins_F }
+text = { trigger = { tag = BSK gvt_D = yes } localization_key = BSK_ins_D }
+text = { trigger = { tag = BSK gvt_N = yes } localization_key = BSK_ins_N }
+text = { trigger = { tag = BSK gvt_C = yes } localization_key = BSK_ins_C }
+
+text = { trigger = { tag = BUK is_SOV_ssr = yes } localization_key = BUK_SOV_subject_ins_C }
+text = { trigger = { tag = BUK gvt_F = yes } localization_key = BUK_ins_F }
+text = { trigger = { tag = BUK gvt_D = yes } localization_key = BUK_ins_D }
+text = { trigger = { tag = BUK gvt_N = yes } localization_key = BUK_ins_N }
+text = { trigger = { tag = BUK gvt_C = yes } localization_key = BUK_ins_C }
+
+text = { trigger = { tag = KHI is_SOV_ssr = yes } localization_key = KHI_SOV_subject_ins_C }
+text = { trigger = { tag = KHI gvt_F = yes } localization_key = KHI_ins_F }
+text = { trigger = { tag = KHI gvt_D = yes } localization_key = KHI_ins_D }
+text = { trigger = { tag = KHI gvt_N = yes } localization_key = KHI_ins_N }
+text = { trigger = { tag = KHI gvt_C = yes } localization_key = KHI_ins_C }
+
+text = { trigger = { tag = CHU is_SOV_ssr = yes } localization_key = CHU_SOV_subject_ins_C }
+text = { trigger = { tag = CHU gvt_F = yes } localization_key = CHU_ins_F }
+text = { trigger = { tag = CHU gvt_D = yes } localization_key = CHU_ins_D }
+text = { trigger = { tag = CHU gvt_N = yes } localization_key = CHU_ins_N }
+text = { trigger = { tag = CHU gvt_C = yes } localization_key = CHU_ins_C }
+
+text = { trigger = { tag = MEL is_SOV_ssr = yes } localization_key = MEL_SOV_subject_ins_C }
+text = { trigger = { tag = MEL gvt_F = yes } localization_key = MEL_ins_F }
+text = { trigger = { tag = MEL gvt_D = yes } localization_key = MEL_ins_D }
+text = { trigger = { tag = MEL gvt_N = yes } localization_key = MEL_ins_N }
+text = { trigger = { tag = MEL gvt_C = yes } localization_key = MEL_ins_C }
+
+text = { trigger = { tag = UDM is_SOV_ssr = yes } localization_key = UDM_SOV_subject_ins_C }
+text = { trigger = { tag = UDM gvt_F = yes } localization_key = UDM_ins_F }
+text = { trigger = { tag = UDM gvt_D = yes } localization_key = UDM_ins_D }
+text = { trigger = { tag = UDM gvt_N = yes } localization_key = UDM_ins_N }
+text = { trigger = { tag = UDM gvt_C = yes } localization_key = UDM_ins_C }
+
+text = { trigger = { tag = RIF gvt_F = yes } localization_key = RIF_ins_F }
+text = { trigger = { tag = RIF gvt_D = yes } localization_key = RIF_ins_D }
+text = { trigger = { tag = RIF gvt_N = yes } localization_key = RIF_ins_N }
+text = { trigger = { tag = RIF gvt_C = yes } localization_key = RIF_ins_C }
+
+text = { trigger = { tag = HAR is_subject_of = ETH gvt_N = yes } localization_key = HAR_ETH_subject_ins_N }
+text = { trigger = { tag = HAR gvt_F = yes } localization_key = HAR_ins_F }
+text = { trigger = { tag = HAR gvt_D = yes } localization_key = HAR_ins_D }
+text = { trigger = { tag = HAR gvt_N = yes } localization_key = HAR_ins_N }
+text = { trigger = { tag = HAR gvt_C = yes } localization_key = HAR_ins_C }
+
+text = { trigger = { tag = TIG is_subject_of = ETH gvt_N = yes } localization_key = TIG_ETH_subject_ins_N }
+text = { trigger = { tag = TIG gvt_F = yes } localization_key = TIG_ins_F }
+text = { trigger = { tag = TIG gvt_D = yes } localization_key = TIG_ins_D }
+text = { trigger = { tag = TIG gvt_N = yes } localization_key = TIG_ins_N }
+text = { trigger = { tag = TIG gvt_C = yes } localization_key = TIG_ins_C }
+
+text = { trigger = { tag = AFA is_subject_of = ETH gvt_N = yes } localization_key = AFA_ETH_subject_ins_N }
+text = { trigger = { tag = AFA gvt_F = yes } localization_key = AFA_ins_F }
+text = { trigger = { tag = AFA gvt_D = yes } localization_key = AFA_ins_D }
+text = { trigger = { tag = AFA gvt_N = yes } localization_key = AFA_ins_N }
+text = { trigger = { tag = AFA gvt_C = yes } localization_key = AFA_ins_C }
+
+text = { trigger = { tag = BEG is_subject_of = ETH gvt_N = yes } localization_key = BEG_ETH_subject_ins_N }
+text = { trigger = { tag = BEG gvt_F = yes } localization_key = BEG_ins_F }
+text = { trigger = { tag = BEG gvt_D = yes } localization_key = BEG_ins_D }
+text = { trigger = { tag = BEG gvt_N = yes } localization_key = BEG_ins_N }
+text = { trigger = { tag = BEG gvt_C = yes } localization_key = BEG_ins_C }
+
+text = { trigger = { tag = GBA is_subject_of = ETH gvt_N = yes } localization_key = GBA_ETH_subject_ins_N }
+text = { trigger = { tag = GBA gvt_F = yes } localization_key = GBA_ins_F }
+text = { trigger = { tag = GBA gvt_D = yes } localization_key = GBA_ins_D }
+text = { trigger = { tag = GBA gvt_N = yes } localization_key = GBA_ins_N }
+text = { trigger = { tag = GBA gvt_C = yes } localization_key = GBA_ins_C }
+
+text = { trigger = { tag = SID is_subject_of = ETH gvt_N = yes } localization_key = SID_ETH_subject_ins_N }
+text = { trigger = { tag = SID gvt_F = yes } localization_key = SID_ins_F }
+text = { trigger = { tag = SID gvt_D = yes } localization_key = SID_ins_D }
+text = { trigger = { tag = SID gvt_N = yes } localization_key = SID_ins_N }
+text = { trigger = { tag = SID gvt_C = yes } localization_key = SID_ins_C }
+
+text = { trigger = { tag = ORO is_subject_of = ETH gvt_N = yes } localization_key = ORO_ETH_subject_ins_N }
+text = { trigger = { tag = ORO gvt_F = yes } localization_key = ORO_ins_F }
+text = { trigger = { tag = ORO gvt_D = yes } localization_key = ORO_ins_D }
+text = { trigger = { tag = ORO gvt_N = yes } localization_key = ORO_ins_N }
+text = { trigger = { tag = ORO gvt_C = yes } localization_key = ORO_ins_C }
+
+text = { trigger = { tag = QEM is_subject_of = ETH gvt_N = yes } localization_key = QEM_ETH_subject_ins_N }
+text = { trigger = { tag = QEM gvt_F = yes } localization_key = QEM_ins_F }
+text = { trigger = { tag = QEM gvt_D = yes } localization_key = QEM_ins_D }
+text = { trigger = { tag = QEM gvt_N = yes } localization_key = QEM_ins_N }
+text = { trigger = { tag = QEM gvt_C = yes } localization_key = QEM_ins_C }
+
+text = { trigger = { tag = RSI } localization_key = RSI_ins }
+
+text = { trigger = { tag = RDS } localization_key = RDS_ins }
+
+text = { trigger = { tag = KHA gvt_F = yes } localization_key = KHA_ins_F }
+text = { trigger = { tag = KHA gvt_D = yes } localization_key = KHA_ins_D }
+text = { trigger = { tag = KHA gvt_N = yes } localization_key = KHA_ins_N }
+text = { trigger = { tag = KHA gvt_C = yes } localization_key = KHA_ins_C }
+
+text = { trigger = { tag = AOI is_subject_of = ITA gvt_FN = yes } localization_key = AOI_ITA_subject_ins_FN }
+text = { trigger = { tag = AOI is_subject_of = ITA gvt_D = yes } localization_key = AOI_ITA_subject_ins_D }
+text = { trigger = { tag = AOI is_subject = yes } localization_key = AOI_subject_ins }
+text = { trigger = { tag = AOI gvt_F = yes } localization_key = AOI_ins_F }
+text = { trigger = { tag = AOI gvt_D = yes } localization_key = AOI_ins_D }
+text = { trigger = { tag = AOI gvt_N = yes } localization_key = AOI_ins_N }
+text = { trigger = { tag = AOI gvt_C = yes } localization_key = AOI_ins_C }
+
+text = { trigger = { tag = LBV is_superstate = yes } localization_key = LBV_superstate_ins }
+text = { trigger = { tag = LBV is_subject = yes } localization_key = LBV_subject_ins }
+text = { trigger = { tag = LBV gvt_F = yes } localization_key = LBV_ins_F }
+text = { trigger = { tag = LBV gvt_D = yes } localization_key = LBV_ins_D }
+text = { trigger = { tag = LBV gvt_N = yes } localization_key = LBV_ins_N }
+text = { trigger = { tag = LBV gvt_C = yes } localization_key = LBV_ins_C }
+
+text = { trigger = { tag = PAP is_superstate = yes } localization_key = PAP_superstate_ins }
+text = { trigger = { tag = PAP is_subject = yes } localization_key = PAP_subject_ins }
+text = { trigger = { tag = PAP gvt_F = yes } localization_key = PAP_ins_F }
+text = { trigger = { tag = PAP gvt_D = yes } localization_key = PAP_ins_D }
+text = { trigger = { tag = PAP gvt_N = yes } localization_key = PAP_ins_N }
+text = { trigger = { tag = PAP gvt_C = yes } localization_key = PAP_ins_C }
+
+text = { trigger = { tag = TOS is_superstate = yes } localization_key = TOS_superstate_ins }
+text = { trigger = { tag = TOS is_subject = yes gvt_N = yes } localization_key = TOS_subject_ins_N }
+text = { trigger = { tag = TOS is_subject = yes } localization_key = TOS_subject_ins }
+text = { trigger = { tag = TOS gvt_F = yes } localization_key = TOS_ins_F }
+text = { trigger = { tag = TOS gvt_D = yes } localization_key = TOS_ins_D }
+text = { trigger = { tag = TOS gvt_N = yes } localization_key = TOS_ins_N }
+text = { trigger = { tag = TOS gvt_C = yes } localization_key = TOS_ins_C }
+
+text = { trigger = { tag = SPM is_superstate = yes } localization_key = SPM_superstate_ins }
+text = { trigger = { tag = SPM is_subject = yes } localization_key = SPM_subject_ins }
+text = { trigger = { tag = SPM gvt_F = yes } localization_key = SPM_ins_F }
+text = { trigger = { tag = SPM gvt_D = yes } localization_key = SPM_ins_D }
+text = { trigger = { tag = SPM gvt_N = yes } localization_key = SPM_ins_N }
+text = { trigger = { tag = SPM gvt_C = yes } localization_key = SPM_ins_C }
+
+text = { trigger = { tag = TTS is_superstate = yes } localization_key = TTS_superstate_ins }
+text = { trigger = { tag = TTS is_subject = yes } localization_key = TTS_subject_ins }
+text = { trigger = { tag = TTS gvt_F = yes } localization_key = TTS_ins_F }
+text = { trigger = { tag = TTS gvt_D = yes } localization_key = TTS_ins_D }
+text = { trigger = { tag = TTS gvt_N = yes } localization_key = TTS_ins_N }
+text = { trigger = { tag = TTS gvt_C = yes } localization_key = TTS_ins_C }
+
+text = { localization_key = generic_ins }
+}

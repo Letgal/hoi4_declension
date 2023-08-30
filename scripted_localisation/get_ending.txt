@@ -1,0 +1,190 @@
+defined_text = {
+	name = GetEndPresentV
+	text = {
+		trigger = { OR = {
+			AND = { OR = { tag = USA original_tag = USA } gvt_DNC = yes NOT = {
+				AND = { has_cosmetic_tag = USA_CSA gvt_FN = yes }
+				AND = { has_cosmetic_tag = USA_REBEL gvt_DNC = yes }
+			} }
+			AND = { OR = { tag = HOL original_tag = HOL } gvt_FN = no NOT = {
+				AND = { has_cosmetic_tag = HOL_benelux_unified gvt_D = yes }
+				has_cosmetic_tag = EUR_UNIFIED
+			} }
+			AND = { OR = { tag = SWI original_tag = SWI } gvt_C = yes }
+			AND = { OR = { tag = MEX original_tag = MEX } gvt_D = yes NOT = {
+				has_cosmetic_tag = MEX_cristero
+				is_subject_of = SPR
+				is_subject_of = SPA
+			} }
+			AND = { OR = { tag = PAN original_tag = PAN } gvt_N = yes }
+			AND = { OR = { tag = PHI original_tag = PHI } gvt_C = no }
+			AND = { OR = { tag = ARM original_tag = ARM } gvt_N = yes NOT = { is_subject_of = ENG } }
+			AND = { OR = { tag = BAH original_tag = BAH } gvt_FDC = no }
+			AND = { OR = { tag = CRC original_tag = CRC } gvt_FNC = no }
+			AND = { OR = { tag = TRI original_tag = TRI } gvt_FDC = no }
+			AND = { OR = { tag = UAE original_tag = UAE } gvt_FDC = no }
+			AND = { OR = { tag = CSA original_tag = CSA } gvt_F = yes }
+			AND = { OR = { tag = USB original_tag = USB } }
+		} }
+		localization_key = ending_jut
+	}
+	text = { localization_key = ending_je }
+}
+
+defined_text = {
+	name = GetEndPresentC
+	text = {
+		trigger = { OR = {
+			AND = { OR = { tag = USA original_tag = USA } gvt_DNC = yes NOT = {
+				AND = { has_cosmetic_tag = USA_CSA gvt_FN = yes }
+				AND = { has_cosmetic_tag = USA_REBEL gvt_DNC = yes }
+			} }
+			AND = { OR = { tag = HOL original_tag = HOL } gvt_FN = no NOT = {
+				AND = { has_cosmetic_tag = HOL_benelux_unified gvt_D = yes }
+				has_cosmetic_tag = EUR_UNIFIED
+			} }
+			AND = { OR = { tag = SWI original_tag = SWI } gvt_C = yes }
+			AND = { OR = { tag = MEX original_tag = MEX } gvt_D = yes NOT = {
+				has_cosmetic_tag = MEX_cristero
+				is_subject_of = SPR
+				is_subject_of = SPA
+			} }
+			AND = { OR = { tag = PAN original_tag = PAN } gvt_N = yes }
+			AND = { OR = { tag = PHI original_tag = PHI } gvt_C = no }
+			AND = { OR = { tag = ARM original_tag = ARM } gvt_N = yes NOT = { is_subject_of = ENG } }
+			AND = { OR = { tag = BAH original_tag = BAH } gvt_FDC = no }
+			AND = { OR = { tag = CRC original_tag = CRC } gvt_FNC = no }
+			AND = { OR = { tag = TRI original_tag = TRI } gvt_FDC = no }
+			AND = { OR = { tag = UAE original_tag = UAE } gvt_FDC = no }
+			AND = { OR = { tag = CSA original_tag = CSA } gvt_F = yes }
+			AND = { OR = { tag = USB original_tag = USB } }
+		} }
+		localization_key = ending_ut
+	}
+	text = { localization_key = ending_e }
+}
+
+defined_text = {
+	name = GetEndPast
+	text = {
+		trigger = { OR = {
+			AND = { OR = { tag = GER original_tag = GER } gvt_F = yes NOT = { has_cosmetic_tag = EUR_UNIFIED } }
+			AND = { OR = { tag = FRA original_tag = FRA } gvt_F = yes NOT = {
+				has_cosmetic_tag = EUR_UNIFIED
+				has_cosmetic_tag = FRA_FREE
+				has_cosmetic_tag = FRANCO_SPAIN
+			} }
+			AND = { OR = { tag = SOV original_tag = SOV } gvt_C = yes OR = {
+				NOT = { has_cosmetic_tag = SOV_PANSLAVIC has_cosmetic_tag = SOV_ROME }
+				AND = { OR = { has_cosmetic_tag = SOV_PANSLAVIC has_cosmetic_tag = SOV_ROME } }
+			} }
+			AND = { OR = { tag = HOL original_tag = HOL } gvt_F = yes NOT = {
+				AND = { has_cosmetic_tag = HOL_benelux_unified gvt_D = yes }
+				has_cosmetic_tag = EUR_UNIFIED
+			} }
+			AND = { OR = { tag = BEL original_tag = BEL } gvt_C = yes NOT = { has_cosmetic_tag = EUR_UNIFIED } }
+			AND = { OR = { tag = LUX original_tag = LUX } gvt_C = no NOT = { has_cosmetic_tag = EUR_UNIFIED } }
+			AND = { OR = { tag = GRE original_tag = GRE } gvt_C = yes OR = { # GRE_GREATER_GREECE
+				AND = { has_cosmetic_tag = GRE_byz_republic gvt_F = yes }
+				NOT = {
+					has_country_flag = GRE_mae_flag
+					has_country_flag = GRE_com_independent_flag
+					has_country_flag = GRE_dem_monarchy_flag
+					has_country_flag = GRE_GREATER_GREECE_flag
+					has_country_flag = GRE_byz_unified_flag
+				}
+			} }
+			AND = { OR = { tag = DEN original_tag = DEN } gvt_C = yes NOT = { has_cosmetic_tag = NDC_UNIFIED } }
+			AND = { OR = { tag = IRE original_tag = IRE } gvt_C = yes }
+			AND = { OR = { tag = AFG original_tag = AFG } gvt_C = no }
+			AND = { OR = { tag = CHI original_tag = CHI } gvt_DC = no NOT = { has_cosmetic_tag = CHI_warlord_leader gvt_DN = yes } }
+			AND = { OR = { tag = PRC original_tag = PRC } gvt_FD = no NOT = { has_cosmetic_tag = PRC_proclaimed gvt_DNC = yes } }
+
+			AND = {
+				OR = {
+					tag = GER original_tag = GER
+					tag = ITA original_tag = ITA
+					tag = FRA original_tag = FRA
+					tag = HOL original_tag = HOL
+					tag = BEL original_tag = BEL
+					tag = LUX original_tag = LUX
+				}
+				gvt_D = yes
+				has_cosmetic_tag = EUR_UNIFIED
+			}
+		} }
+		localization_key = ending_v
+	}
+	text = {
+		trigger = { OR = {
+			AND = { OR = { tag = ITA original_tag = ITA } gvt_N = yes NOT = { has_cosmetic_tag = EUR_UNIFIED } }
+			AND = { OR = { tag = ENG original_tag = ENG } gvt_DN = yes NOT = { has_cosmetic_tag = ENG_imperial_federation_unified has_cosmetic_tag = ENG_imperial_federation_india_unified } }
+			AND = { OR = { tag = HOL original_tag = HOL } gvt_N = yes NOT = { has_cosmetic_tag = EUR_UNIFIED } }
+			AND = { OR = { tag = CZE original_tag = CZE } gvt_N = yes }
+			AND = { OR = { tag = HUN original_tag = HUN } gvt_N = yes }
+			AND = { OR = { tag = GRE original_tag = GRE } gvt_N = yes OR = { # + GRE_GREATER_GREECE:gvt_N
+				NOT = {
+					has_country_flag = GRE_mae_flag
+					has_country_flag = GRE_com_independent_flag
+					has_cosmetic_tag = GRE_byz_republic
+					has_country_flag = GRE_dem_monarchy_flag
+					has_country_flag = GRE_byz_unified_flag
+				}
+			} }
+			AND = { OR = { tag = DEN original_tag = DEN } gvt_N = yes NOT = { has_cosmetic_tag = NDC_UNIFIED } }
+			AND = { OR = { tag = SWE original_tag = SWE } gvt_FN = yes NOT = { has_cosmetic_tag = NDC_UNIFIED } }
+			AND = { OR = { tag = NOR original_tag = NOR } gvt_N = yes NOT = { has_cosmetic_tag = NDC_UNIFIED } }
+			AND = { OR = { tag = CHL original_tag = CHL } gvt_NC = no }
+			AND = { OR = { tag = COS original_tag = COS } gvt_N = yes }
+			AND = { OR = { tag = IRQ original_tag = IRQ } gvt_N = yes }
+			AND = { OR = { tag = MON original_tag = MON } gvt_N = yes }
+			AND = { OR = { tag = PHI original_tag = PHI } gvt_C = yes }
+			AND = { OR = { tag = PRU original_tag = PRU } gvt_DN = no }
+			AND = { OR = { tag = SIA original_tag = SIA } gvt_N = yes } # + RAT_UNIFIED:gvt_N
+			AND = { OR = { tag = HAI original_tag = HAI } gvt_FC = no }
+
+			AND = {
+				OR = {
+					tag = GER original_tag = GER
+					tag = ITA original_tag = ITA
+					tag = FRA original_tag = FRA
+					tag = HOL original_tag = HOL
+					tag = BEL original_tag = BEL
+					tag = LUX original_tag = LUX
+				}
+				gvt_N = yes
+				has_cosmetic_tag = EUR_UNIFIED
+			}
+		} }
+		localization_key = ending_lo
+	}
+	text = {
+		trigger = { OR = {
+			AND = { OR = { tag = USA original_tag = USA } gvt_DNC = yes NOT = {
+				AND = { has_cosmetic_tag = USA_CSA gvt_FN = yes }
+				AND = { has_cosmetic_tag = USA_REBEL gvt_DNC = yes }
+			} }
+			AND = { OR = { tag = HOL original_tag = HOL } gvt_FN = no NOT = {
+				AND = { has_cosmetic_tag = HOL_benelux_unified gvt_D = yes }
+				has_cosmetic_tag = EUR_UNIFIED
+			} }
+			AND = { OR = { tag = SWI original_tag = SWI } gvt_C = yes }
+			AND = { OR = { tag = MEX original_tag = MEX } gvt_D = yes NOT = {
+				has_cosmetic_tag = MEX_cristero
+				is_subject_of = SPR
+				is_subject_of = SPA
+			} }
+			AND = { OR = { tag = PAN original_tag = PAN } gvt_N = yes }
+			AND = { OR = { tag = PHI original_tag = PHI } gvt_C = no }
+			AND = { OR = { tag = ARM original_tag = ARM } gvt_N = yes NOT = { is_subject_of = ENG } }
+			AND = { OR = { tag = BAH original_tag = BAH } gvt_FDC = no }
+			AND = { OR = { tag = CRC original_tag = CRC } gvt_FNC = no }
+			AND = { OR = { tag = TRI original_tag = TRI } gvt_FDC = no }
+			AND = { OR = { tag = UAE original_tag = UAE } gvt_FDC = no }
+			AND = { OR = { tag = CSA original_tag = CSA } gvt_F = yes }
+			AND = { OR = { tag = USB original_tag = USB } }
+		} }
+		localization_key = ending_ly
+	}
+	text = { localization_key = ending_la }
+}
